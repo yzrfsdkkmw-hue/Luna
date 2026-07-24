@@ -1,4 +1,4 @@
-# YEHOSHUA Calculus-1 V16.3 Candidate Run
+# YEHOSHUA Calculus-1 V16.2 Candidate Run
 
 Status: `CANDIDATE_FOR_REVIEW`
 
@@ -16,7 +16,7 @@ This run is not an active continuation anchor unless Yehoshua explicitly promote
 - Human form: `d/dx[a f(x)+b g(x)] = a f'(x)+b g'(x)`
 - Structural encoding: `D(af+bg)=aDf+bDg`
 
-- Layout: two readable rows with compact glyph scale and minimal relation weight.
+- Layout: two readable rows with moderate glyph scale and strongly reduced relation weight.
 
 ## Safety
 

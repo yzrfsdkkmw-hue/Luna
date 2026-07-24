@@ -1,0 +1,14 @@
+CONFIG
+ssot_filename=jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+actual_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+dataset_path_used=/n_5_composite_field_1000x1000/data
+prepare_note=interpreted 5,000,000 values as 1000x1000x5 channel field
+layout_note=layout_B reshape(v,5,1000,1000)->HxWxC | selected by locality score 4.038406
+n_frames=16
+formula_id=f002_derivative_linearity
+formula_human=d/dx[a f(x)+b g(x)] = a f'(x)+b g'(x)
+
+methods:
+m01_projection_visible mode=wave_arc strength=0.780000 sigma=0.900000 relationStrength=0.400000 flow=0.200000 radial=0.150000 spiral=0.120000 preserve=0.560000 fieldMotionPx=8.000000 formulaMotionPx=17.000000
+m02_projection_balanced mode=geodesic_arc strength=0.540000 sigma=1.550000 relationStrength=0.280000 flow=0.170000 radial=0.130000 spiral=0.100000 preserve=0.660000 fieldMotionPx=6.500000 formulaMotionPx=13.000000
+m03_projection_structural mode=curvature_flow strength=0.340000 sigma=2.350000 relationStrength=0.200000 flow=0.130000 radial=0.110000 spiral=0.080000 preserve=0.760000 fieldMotionPx=4.500000 formulaMotionPx=9.000000
