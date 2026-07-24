@@ -1,0 +1,11 @@
+metric_name,metric_value
+roots_count,240
+edges_count,1832
+roots_xy_max_abs_diff,0
+connection_distance_max_abs_diff,5.2252841026279e-08
+connection_distance_mean_abs_diff,8.38741954223818e-09
+charge_mismatch_count,0
+charge_sum,42
+charge_nonzero_count,1614
+raw_points_count,194527
+raw_radius_ge_1_count,0

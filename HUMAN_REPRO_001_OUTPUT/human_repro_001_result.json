@@ -1,0 +1,17 @@
+{
+  "test_id": "human_repro_001_visual",
+  "h5file": "jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "visual_png": "HUMAN_REPRO_001_OUTPUT/human_repro_001_visual.png",
+  "metrics_csv": "HUMAN_REPRO_001_OUTPUT/human_repro_001_metrics.csv",
+  "roots_count": 240,
+  "edges_count": 1832,
+  "roots_xy_max_abs_diff": 0,
+  "connection_distance_max_abs_diff": 5.2252841026279029E-8,
+  "connection_distance_mean_abs_diff": 8.3874195422381787E-9,
+  "charge_mismatch_count": 0,
+  "charge_sum": 42,
+  "charge_nonzero_count": 1614,
+  "raw_points_count": 194527,
+  "raw_radius_ge_1_count": 0,
+  "pass": true
+}

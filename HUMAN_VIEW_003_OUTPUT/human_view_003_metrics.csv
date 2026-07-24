@@ -1,0 +1,13 @@
+metric,value
+roots_count,240
+edges_count,1832
+roots_xy_max_abs_diff,0
+connection_distance_max_abs_diff,5.2252841026279e-08
+raw_points_count,194527
+raw_radius_ge_1_count,0
+mean_root_degree,15.2666666666667
+max_root_degree,40
+high_salience_threshold,0.8
+high_salience_pixels,0
+medium_or_higher_salience_threshold,0.4
+medium_or_higher_salience_pixels,44
