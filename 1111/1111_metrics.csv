@@ -1,0 +1,13 @@
+metric,value
+source_retention_corr,0.923165368330023
+anchor_abs_corr,0.252547738634675
+phase_energy_abs_corr,0.270181198454095
+coherence_abs_corr,0.0815341156019476
+hessian_abs_corr,0.0216907498182751
+time_eta_heavy_abs_corr,0.451234493752982
+adv_calculus_atoms_abs_corr,0.154620927548202
+motion_energy_abs_corr,0.250224174280895
+unified_base_abs_corr,0.987733512358119
+temporal_diversity_score,0.0379235813175176
+carrier_diversity_score,0.0111225422261087
+decode_presence_mean,0.308720863806149

@@ -1,0 +1,43 @@
+CALCULUS_TIME_ETA_CONNECTOR_V2_HEAVY
+====================================
+
+H5 file: jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+Dataset: /n_5_composite_field_1000x1000/data
+
+TimeKernel files:
+phase schedule: time/projectVectorVision_timeKernel_20260706_222533_phase_schedule.csv
+summary json:   time/projectVectorVision_timeKernel_20260706_222533_summary.json
+frequency csv:  time/projectVectorVision_timeKernel_20260706_222533_frequency_report.csv
+
+Heavy settings:
+nFrames:                72
+sigmaTimeFactor:        0.3000
+dominant_frequency_hz:  1.31700000
+dominant_period_sec:    0.75930144
+mapped_duration_sec:    30.00000000
+multiSigmaPx:           [8 18 34]
+
+Top-line metrics:
+source_retention_corr:       0.923165
+decode_presence_mean:        0.308721
+temporal_diversity_score:    0.037924
+carrier_diversity_score:     0.011123
+
+Detailed metrics:
+source_retention_corr          0.92316537
+anchor_abs_corr                0.25254774
+phase_energy_abs_corr          0.27018120
+coherence_abs_corr             0.08153412
+hessian_abs_corr               0.02169075
+time_eta_heavy_abs_corr        0.45123449
+adv_calculus_atoms_abs_corr    0.15462093
+motion_energy_abs_corr         0.25022417
+unified_base_abs_corr          0.98773351
+temporal_diversity_score       0.03792358
+carrier_diversity_score        0.01112254
+decode_presence_mean           0.30872086
+
+Interpretation:
+- This V2 heavy run increases temporal integration and structural richness.
+- It is still an experimental visual encoding, not yet proof of downstream performance gain.
+- If the images are strong, next step is decoder / benchmark against baseline.
