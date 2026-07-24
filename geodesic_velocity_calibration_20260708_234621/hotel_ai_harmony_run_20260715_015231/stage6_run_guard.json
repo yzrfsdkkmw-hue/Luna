@@ -1,0 +1,1 @@
+{"generated_at":"2026-07-15 01:52:45","convergence_status":"max_iter","iterations_run":600,"max_iterations":600,"missing_dataset_warnings":[],"source_policy_file":"stage7_source_policy.json","numeric_source_of_truth":"canonical_h5_only","visual_contract_role":"display_only_deterministic_mapping","stage4_roi_status":"ok","stage5_geodesic_status":"ok"}

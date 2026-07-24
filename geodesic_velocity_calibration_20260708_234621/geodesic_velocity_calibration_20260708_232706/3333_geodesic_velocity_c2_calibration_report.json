@@ -1,0 +1,166 @@
+{
+  "project": "calibrate_geodesic_velocity_hypothesis_v1",
+  "h5_path": "/MATLAB Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "h5_sha256": "f853d2d6c3829cecbecc655c67173aa68ce2d623b7aa41785333828589319d40",
+  "output_folder": "/MATLAB Drive/modelTRAINING/geodesic_velocity_calibration_20260708_232706",
+  "field_height": 1024,
+  "field_width": 1024,
+  "calibration_used": {
+    "ok": false,
+    "dx_m": null,
+    "dt_s": null,
+    "dx_source": "",
+    "dt_source": "",
+    "source": "NOT_FOUND_IN_H5",
+    "dx_over_dt_m_per_s": null
+  },
+  "test_raw_gradient": {
+    "name": "RAW_GRADIENT_GEODESIC_VELOCITY",
+    "equation": "vg2_physical = vg2_dimless * (dx_m/dt_s)^2",
+    "compare_to": "c^2",
+    "calibration_ok": false,
+    "calibration_source": "NOT_FOUND_IN_H5",
+    "vg2_dimless_max": 0.0078485926725011482,
+    "vg2_dimless_p99": 0.0019362839819849224,
+    "vg2_dimless_p95": 0.0010501164137700367,
+    "vg2_dimless_median": 0.00012739956795035742,
+    "status": "CALIBRATION_REQUIRED",
+    "dx_m": null,
+    "dt_s": null,
+    "conclusion": "H5 field was computed, but physical vg2/c2 comparison requires dx_m and dt_s."
+  },
+  "test_unit_direction": {
+    "name": "UNIT_DIRECTION_GEODESIC_VELOCITY",
+    "equation": "vg2_physical = vg2_dimless * (dx_m/dt_s)^2",
+    "compare_to": "c^2",
+    "calibration_ok": false,
+    "calibration_source": "NOT_FOUND_IN_H5",
+    "vg2_dimless_max": 0.99999999923700933,
+    "vg2_dimless_p99": 0.89219722184656092,
+    "vg2_dimless_p95": 0.81020332242814186,
+    "vg2_dimless_median": 0.52881890110589325,
+    "status": "CALIBRATION_REQUIRED",
+    "dx_m": null,
+    "dt_s": null,
+    "conclusion": "H5 field was computed, but physical vg2/c2 comparison requires dx_m and dt_s."
+  },
+  "required_threshold_raw_gradient": {
+    "status": "OK",
+    "vg2_dimless_p99": 0.0019362925187709336,
+    "vg2_dimless_p95": 0.0010501169920022035,
+    "vg2_dimless_max": 0.0078485926725011482,
+    "required_dx_over_dt_for_c2_p99": 6.8129502746469917E+9,
+    "required_dx_over_dt_for_significant_p99": 2.1544440453354206E+10,
+    "required_dx_over_dt_for_c2_max": 3.3839567804334831E+9,
+    "required_dx_over_dt_for_significant_max": 1.0701010929740116E+10
+  },
+  "required_threshold_unit_direction": {
+    "status": "OK",
+    "vg2_dimless_p99": 0.89219723620948044,
+    "vg2_dimless_p95": 0.81020448666731,
+    "vg2_dimless_max": 0.99999999923700933,
+    "required_dx_over_dt_for_c2_p99": 3.173878271491726E+8,
+    "required_dx_over_dt_for_significant_p99": 1.0036684354032116E+9,
+    "required_dx_over_dt_for_c2_max": 2.9979245811436945E+8,
+    "required_dx_over_dt_for_significant_max": 9.48026992982035E+8
+  },
+  "projection_summary": [
+    {
+      "CaseName": "CASE_1_self_aligned_velocity",
+      "Candidate": "H1_scalar_coef_equals_speed2_raw",
+      "MaxAbsError": 0.2019190225483436,
+      "RelativeRMSE": 13.533732920139308,
+      "Correlation": 0.79004484849188827,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_1_self_aligned_velocity",
+      "Candidate": "H2_shadow_norm2_equals_speed2_raw",
+      "MaxAbsError": 1.1229350782571146E-12,
+      "RelativeRMSE": 5.712427588639714E-11,
+      "Correlation": 0.99999999999999967,
+      "Status": "EXACT_PASS"
+    },
+    {
+      "CaseName": "CASE_1_self_aligned_velocity",
+      "Candidate": "H3_signed_component_squared_equals_speed2_raw",
+      "MaxAbsError": 5.6146753912855729E-13,
+      "RelativeRMSE": 2.8562137896027342E-11,
+      "Correlation": 0.99999999999999922,
+      "Status": "EXACT_PASS"
+    },
+    {
+      "CaseName": "CASE_1_self_aligned_velocity",
+      "Candidate": "H4_metric_shadow2_equals_metric_speed2",
+      "MaxAbsError": 2.78686795862626E-13,
+      "RelativeRMSE": 9.1300184070352112E-11,
+      "Correlation": 1,
+      "Status": "EXACT_PASS"
+    },
+    {
+      "CaseName": "CASE_2_radial_direction",
+      "Candidate": "H1_scalar_coef_equals_speed2_raw",
+      "MaxAbsError": 0.16131644124092492,
+      "RelativeRMSE": 9.7948635425725818,
+      "Correlation": 0.13767319614957324,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_2_radial_direction",
+      "Candidate": "H2_shadow_norm2_equals_speed2_raw",
+      "MaxAbsError": 0.039457251129222937,
+      "RelativeRMSE": 0.5129655797431113,
+      "Correlation": 0.89720970758359142,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_2_radial_direction",
+      "Candidate": "H3_signed_component_squared_equals_speed2_raw",
+      "MaxAbsError": 0.03945725112922293,
+      "RelativeRMSE": 0.5129655797431113,
+      "Correlation": 0.8972097075835912,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_2_radial_direction",
+      "Candidate": "H4_metric_shadow2_equals_metric_speed2",
+      "MaxAbsError": 0.0051187539866834331,
+      "RelativeRMSE": 0.61999175415414287,
+      "Correlation": 0.77228313469915766,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_3_gradient_direction",
+      "Candidate": "H1_scalar_coef_equals_speed2_raw",
+      "MaxAbsError": 0.20191895752785682,
+      "RelativeRMSE": 13.483718968500007,
+      "Correlation": 0.54227783561473486,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_3_gradient_direction",
+      "Candidate": "H2_shadow_norm2_equals_speed2_raw",
+      "MaxAbsError": 0.0083362625057089,
+      "RelativeRMSE": 0.10229629189333359,
+      "Correlation": 0.99395317205616984,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_3_gradient_direction",
+      "Candidate": "H3_signed_component_squared_equals_speed2_raw",
+      "MaxAbsError": 0.0083362625057089,
+      "RelativeRMSE": 0.10229629189333359,
+      "Correlation": 0.99395317205616984,
+      "Status": "FAIL_OR_CONDITIONAL"
+    },
+    {
+      "CaseName": "CASE_3_gradient_direction",
+      "Candidate": "H4_metric_shadow2_equals_metric_speed2",
+      "MaxAbsError": 0.0051210562462515024,
+      "RelativeRMSE": 0.21927936860677286,
+      "Correlation": 0.96533053204209429,
+      "Status": "FAIL_OR_CONDITIONAL"
+    }
+  ],
+  "rule": "Physical comparison to c^2 is valid only if dx_m and dt_s are found in H5 or explicitly supplied by override."
+}

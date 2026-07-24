@@ -1,0 +1,22 @@
+H5_FILE=/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+OUT_DIR=/Users/yehoshua/MATLAB-Drive/modelTRAINING/geodesic_velocity_calibration_20260708_234621/hotel_ai_harmony_run_20260715_015117
+START=2026-07-15 01:51:17
+STAGE1_INTEGRITY
+h5_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+script_sha256=320cc1711baebef8cadf48f82a3ed40a82c753e86401b2468bba0bb48e71388b
+roots_laplacian_xy_max_abs_diff=NaN
+charge_eq_6_minus_degree_max_abs_error=NaN
+edge_distance_max_abs_error=NaN
+degree_min=NaN degree_median=NaN degree_mean=NaN degree_max=NaN
+charge_sum=NaN
+raw_points_count=NaN raw_radius_max=NaN raw_radius_ge_1_count=NaN
+{Error using hotel_ai_harmony_stabilizer_matlab_truth_path_calibration_run>readAnchors (line 762)
+No usable anchor datasets were available in the H5 file.
+
+Error in hotel_ai_harmony_stabilizer_matlab_truth_path_calibration_run (line 116)
+anchors = readAnchors(H5_FILE);
+          ^^^^^^^^^^^^^^^^^^^^
+Error in run (line 100)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

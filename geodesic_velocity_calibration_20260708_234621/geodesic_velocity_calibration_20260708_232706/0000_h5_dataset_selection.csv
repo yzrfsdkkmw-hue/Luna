@@ -1,0 +1,9 @@
+rank,path,size,numel,class,score
+2,"/n_5_composite_field_1000x1000/data","[5x1000000]",5000000,"H5T_FLOAT",23.250000
+2,"/n_6_field_maps_v3_800x800/modular_eta/data","[3x640000]",1920000,"H5T_FLOAT",22.000000
+2,"/n_6_field_maps_v3_800x800/chamber_field/data","[3x640000]",1920000,"H5T_FLOAT",20.750000
+2,"/n_6_field_maps_v3_800x800/fuchsian_tiling/data","[5x640000]",3200000,"H5T_FLOAT",20.750000
+2,"/n_6_field_maps_v3_800x800/ginibre_field/data","[3x640000]",1920000,"H5T_FLOAT",20.750000
+2,"/n_6_field_maps_v3_800x800/weyl_field/data","[5x640000]",3200000,"H5T_FLOAT",20.750000
+2,"/n_4_geodesic_field/raw_points","[2x194527]",389054,"H5T_FLOAT",18.250000
+2,"/n_2_e8_lattice/streamlines/logmag","[278629x1]",278629,"H5T_FLOAT",17.000000

@@ -1,0 +1,15 @@
+H5_FILE=/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+OUT_DIR=/Users/yehoshua/MATLAB-Drive/modelTRAINING/geodesic_velocity_calibration_20260708_234621/hotel_ai_harmony_run_20260715_015231
+START=2026-07-15 01:52:31
+STAGE1_INTEGRITY
+h5_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+script_sha256=edd9086c53b3aabc3198827f27845bda102bf753b716a7c62bcdbdb522f73b14
+roots_laplacian_xy_max_abs_diff=0
+charge_eq_6_minus_degree_max_abs_error=0
+edge_distance_max_abs_error=5.22528410263e-08
+degree_min=3 degree_median=6 degree_mean=5.9832 degree_max=10
+charge_sum=42
+raw_points_count=194527 raw_radius_max=0.967390302663 raw_radius_ge_1_count=0
+FINAL_HARMONY_SCORE=0.997373549515
+FINAL_RESIDUAL=0.000381741784453
+END=2026-07-15 01:54:11

@@ -1,0 +1,7 @@
+STAGE10_PATH_INSTRUCTIONS
+Edit only USER_H5_FILE near the top of this script.
+Use one H5 file path only, for example:
+USER_H5_FILE = fullfile(pwd, 'my_file.h5');
+or USER_H5_FILE = '/MATLAB Drive/modelTRAINING/my_file.h5';
+Do not edit the internal H5 dataset paths such as /n_2_e8_lattice/... unless the H5 structure itself changed.
+If USER_H5_FILE is empty, the script searches fallback filenames in the current folder and known local folders.

@@ -1,0 +1,15 @@
+STAGE9_MUTUAL_DEPENDENCY_CONTRACT
+numeric_source_of_truth=canonical_h5_only
+voluntary_mutual_dependence=1
+no_direct_channel_constraint=1
+no_forced_gain_constraint=1
+no_harm_constraint=1
+bounded_awareness_constraint=1
+separation_score=1.000000000000
+convergence_score=0.998194906651
+balance_score=1.000000000000
+smoothness_score=0.984931416973
+no_direct_channel_score=0.999618403887
+bounded_awareness_score=0.984931416973
+mutual_dependence_score=0.999618403887
+composite_score=0.995327792624

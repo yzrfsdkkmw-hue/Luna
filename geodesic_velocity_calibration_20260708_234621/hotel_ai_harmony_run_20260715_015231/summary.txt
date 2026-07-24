@@ -1,0 +1,15 @@
+H5-driven stabilization complete
+anchors=7
+modal_basis_count=12
+modal_orthogonality_error=7.77156117238e-15
+residual_initial=0.211480356241
+residual_final=0.000381741784453
+residual_drop_fraction=0.998194906651
+energy_balance_error=1.64642041241e-14
+field_smoothness_error=0.0139830862202
+curvature_penalty=0.00131603285303
+convergence_status=max_iter
+iterations_run=600
+stage11_rejected_updates=530
+stage11_objective_drop_fraction=0.609362673117
+harmony_score=0.997373549515
