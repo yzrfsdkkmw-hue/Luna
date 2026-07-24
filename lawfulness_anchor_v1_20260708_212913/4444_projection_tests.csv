@@ -1,0 +1,10 @@
+CaseName,PathType,Candidate,MaxAbsError,RelativeRMSE,Correlation,ResidualOrthogonalityMax,CurvatureMax,Status
+CASE_A_exact_euclidean_geodesic_line,Euclidean geodesic line,H1_scalar_coef_equals_speed2,0.25,0.2,NaN,0,0,FAIL_OR_CONDITIONAL
+CASE_A_exact_euclidean_geodesic_line,Euclidean geodesic line,H2_shadow_norm2_equals_speed2,0,0,NaN,0,0,EXACT_PASS
+CASE_A_exact_euclidean_geodesic_line,Euclidean geodesic line,H3_signed_component_squared_equals_speed2,2.22044604925031e-16,1.77635683940025e-16,NaN,0,0,EXACT_PASS
+CASE_B_exact_curved_path_not_geodesic,Curved diagnostic path,H1_scalar_coef_equals_speed2,0.999997212942353,0.403556806031439,NaN,0,0.999992519645473,FAIL_OR_CONDITIONAL
+CASE_B_exact_curved_path_not_geodesic,Curved diagnostic path,H2_shadow_norm2_equals_speed2,0,0,1,0,0.999992519645473,EXACT_PASS
+CASE_B_exact_curved_path_not_geodesic,Curved diagnostic path,H3_signed_component_squared_equals_speed2,8.88178419700125e-16,2.05070788753011e-16,1,0,0.999992519645473,EXACT_PASS
+CASE_C_perturbed_field_counterexample,Curved path with perturbed field,H1_scalar_coef_equals_speed2,1.13140213491952,0.434246057225967,-0.493195646230493,4.09394740330526e-16,0.999992519645473,FAIL_OR_CONDITIONAL
+CASE_C_perturbed_field_counterexample,Curved path with perturbed field,H2_shadow_norm2_equals_speed2,0.752569928489563,0.241329493687313,0.404599589736113,4.09394740330526e-16,0.999992519645473,FAIL_OR_CONDITIONAL
+CASE_C_perturbed_field_counterexample,Curved path with perturbed field,H3_signed_component_squared_equals_speed2,0.752569928489562,0.241329493687313,0.404599589736113,4.09394740330526e-16,0.999992519645473,FAIL_OR_CONDITIONAL

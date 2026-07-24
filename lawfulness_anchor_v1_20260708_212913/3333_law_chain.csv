@@ -1,0 +1,14 @@
+Step,Stage,Formula,Meaning,Status
+1,Algebra: combining like terms,"3x + 4x + 7 + 2x - 5 = 9x + 2",Same-type objects may be collected,ANCHOR
+2,Algebra: distributive law,"5(x + 2) + 3x - 4 = 8x + 6",A rule expands structure without changing value,ANCHOR
+3,Algebra: coefficient extraction,"a*x + b*x = (a+b)*x",Coefficient is the scalar weight of a direction,ANCHOR
+4,Vector: dot product,"dot(v,u) = sum(v_i*u_i)",Dot product measures directional agreement,ANCHOR
+5,Vector: projection coefficient,"coef = dot(v,u)/dot(u,u)",Coefficient measures how much v lives in direction u,ANCHOR
+6,Vector: projected vector,"proj_u(v) = coef*u",Projection is the shadow of v on u,ANCHOR
+7,Vector: residual / leftover,"residual = v - proj_u(v), and dot(residual,u)=0",Residual checks whether projection was mathematically clean,CHECK
+8,Vector field,"F(x,y) = [F1(x,y), F2(x,y)]",A vector is attached to every point,MODEL_OBJECT
+9,Path / curve,"gamma(t) = [x(t), y(t)]",A path selects points inside the field,MODEL_OBJECT
+10,Velocity / tangent,"u(t) = gamma_prime(t)",Velocity gives the local movement direction,MODEL_OBJECT
+11,Metric speed squared,"speed2(t) = dot(u(t),u(t)) under Euclidean metric",Speed squared is the metric length of movement,MEASURE
+12,Hypothesis candidate,"shadow_norm2(F,u) ?= speed2",The proposed sentence becomes measurable,HYPOTHESIS_TO_TEST
+13,Action rule,"Only continue if variables, dimensions, error, and counterexample are checked",No action without MATLAB anchor,GATEKEEPER
