@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "asset_identifier": "neutral_wave_atlas_v1",
+  "asset_sha256": "afba00219d0ec28168f30aaab352bf6074aa048f1b596203376ed7807425716f",
+  "approved_runtime_bounds": {
+    "phase_index": [
+      0,
+      15
+    ],
+    "material_intensity": [
+      0.35,
+      1
+    ],
+    "spatial_scale": [
+      0.75,
+      1.25
+    ],
+    "rotation_rate": [
+      -0.35,
+      0.35
+    ],
+    "response_weight": [
+      0,
+      1
+    ]
+  },
+  "neutral_default_values": {
+    "phase_index": 0,
+    "material_intensity": 0.35,
+    "spatial_scale": 1,
+    "rotation_rate": 0,
+    "response_weight": 0
+  },
+  "reset_values": {
+    "phase_index": 0,
+    "material_intensity": 0.35,
+    "spatial_scale": 1,
+    "rotation_rate": 0,
+    "response_weight": 0
+  }
+}

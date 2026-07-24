@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "20260713T234010Z_f4e1967e",
+  "run_timestamp": "2026-07-13T23:40:10Z",
+  "profile_id": "P03",
+  "validation_result": "PASSED",
+  "visual_approval": "APPROVED",
+  "checks": {
+    "expected_shape": true,
+    "rerun_shape": true,
+    "finite_generated_values": true,
+    "stability_margin": true,
+    "amplitude_bound": true,
+    "damped_energy_behavior": true,
+    "deterministic_rerun": true,
+    "phase_variation": true,
+    "atlas_rgba8": true,
+    "runtime_manifest_schema": true
+  },
+  "metrics": {
+    "profile_id": "P03",
+    "stability_ratio": 0.5,
+    "recomputed_stability_ratio": 0.5,
+    "stability_limit": 0.70710678118654746,
+    "initial_energy": 0.415891361474251,
+    "final_energy": 0.18707031390640735,
+    "peak_energy": 0.415891361474251,
+    "maximum_generated_amplitude": 0.35,
+    "deterministic_max_abs_error": 0,
+    "varied_frame_count": 15,
+    "frame_count": 16,
+    "atlas_width": 1024,
+    "atlas_height": 1024
+  }
+}
