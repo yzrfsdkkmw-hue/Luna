@@ -1,0 +1,2 @@
+dominant_period_samples,dominant_period_sec,dominant_frequency_hz,median_peak_interval_samples,median_peak_interval_sec,median_peak_frequency_hz,mean_peak_interval_samples,std_peak_interval_samples,sample_start,sample_end,mapped_duration_sec,sensor_rate_hz
+1000,0.759301442672741,1.317,874,0.663629460895976,1.50686498855835,752.038461538462,281.357281868325,765888,805398,30,60
