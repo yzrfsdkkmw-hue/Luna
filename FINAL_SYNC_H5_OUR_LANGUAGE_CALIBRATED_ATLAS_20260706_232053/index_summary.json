@@ -1,0 +1,87 @@
+{
+  "stage": "final_sync_h5_our_language_clean_continuation",
+  "authority": "canonical H5 only",
+  "h5_file": "/MATLAB Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "our_language_role": "deterministic human color/shape/salience contract",
+  "panel_count": 9,
+  "panels": [
+    {
+      "name": "01_root_degree_edges_clean",
+      "title": "Root degree and measured edges",
+      "source": "/n_2_e8_lattice",
+      "formula": "degree(v)=endpoint count; edge color=normalized h5 distance d",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/01_root_degree_edges_clean.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "02_raw_density_salience_roi",
+      "title": "Raw-point density and salience ROIs",
+      "source": "/n_4_geodesic_field/raw_points",
+      "formula": "D=log(1+hist2(raw_points)); S=multiscale salience(D); ROI=top salience windows",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/02_raw_density_salience_roi.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "03_defect_charge_degree",
+      "title": "Defect charge-degree topology",
+      "source": "/n_3_defect_topology",
+      "formula": "charge=6-degree; palette=Our_Language charge_value",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/03_defect_charge_degree.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "04_laplacian_modes_salience",
+      "title": "Laplacian mode salience",
+      "source": "/n_2_e8_lattice/laplacian_modes",
+      "formula": "color=Our_Language salience(abs(mode))",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/04_laplacian_modes_salience.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "05_streamline_logmag_salience",
+      "title": "Streamline logmag salience",
+      "source": "/n_2_e8_lattice/streamlines",
+      "formula": "color=salience(normalized mean logmag per sid)",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/05_streamline_logmag_salience.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "06_geodesic_curl_velocity",
+      "title": "Geodesic curl velocity",
+      "source": "/n_4_geodesic_field",
+      "formula": "salience from curl; vector overlay from velocity",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/06_geodesic_curl_velocity.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "07_composite_field_signature",
+      "title": "Composite field signature",
+      "source": "/n_5_composite_field_1000x1000/data",
+      "formula": "RGB=f(channels); S=multiscale salience(mean channels); ROI=top salience windows",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/07_composite_field_signature.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "08_field_maps_signature",
+      "title": "Field-map signatures",
+      "source": "/n_6_field_maps_v3_800x800",
+      "formula": "For each field: RGB=f(channels); ROI=top salience window",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/08_field_maps_signature.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    },
+    {
+      "name": "09_integrity_summary",
+      "title": "Integrity summary",
+      "source": "H5 + Our_Language contract",
+      "formula": "deterministic integrity checks and run summary",
+      "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/09_integrity_summary.png",
+      "policy": "H5 authority + Our_Language deterministic human visual contract"
+    }
+  ],
+  "contact_sheet": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/contact_sheets/FINAL_SYNC_OUR_LANGUAGE_CLEAN_CONTACT_SHEET.png",
+  "integrity": {
+    "edge_distance_max_error": 5.2252841026279029E-8,
+    "roots_laplacian_xy_max_error": 0,
+    "charge_relation_max_error": 0
+  }
+}

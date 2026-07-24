@@ -1,0 +1,4 @@
+Root degree and measured edges
+source: /n_2_e8_lattice
+formula: degree(v)=endpoint count; edge color=normalized h5 distance d
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/01_root_degree_edges_clean.png

@@ -1,0 +1,4 @@
+Laplacian mode salience
+source: /n_2_e8_lattice/laplacian_modes
+formula: color=Our_Language salience(abs(mode))
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/04_laplacian_modes_salience.png

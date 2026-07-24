@@ -1,0 +1,8 @@
+{
+  "name": "07_composite_field_signature",
+  "title": "Composite field signature",
+  "source": "/n_5_composite_field_1000x1000/data",
+  "formula": "RGB=f(channels); S=multiscale salience(mean channels); ROI=top salience windows",
+  "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260706_232053/images/07_composite_field_signature.png",
+  "policy": "H5 authority + Our_Language deterministic human visual contract"
+}
