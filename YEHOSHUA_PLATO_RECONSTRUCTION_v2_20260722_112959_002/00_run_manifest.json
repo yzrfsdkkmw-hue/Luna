@@ -1,0 +1,49 @@
+{
+  "schema": "YEHOSHUA_PLATO_RECONSTRUCTION_RUN_v2",
+  "timestamp": "20260722T113636",
+  "ssot_file": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "ssot_dataset": "/n_5_composite_field_1000x1000/data",
+  "ssot_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "reference_manifest": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/plato_reference_manifest.json",
+  "orch_file": "/Users/yehoshua/Desktop/:Users:yehoshua:Library:Containers:com.apple.Photos:Data:tmp:TemporaryItems:PasteboardItemExports:B205AE68-C660-4807-9768-B6C1D9A3ECDC/YEHOSHUA_Orch_tensor_training_bundle_v1_particle_foundations_extension_v1/04_training_tensors/OrchParticleFoundationsLearningTensors.h5",
+  "pde_atlas_file": "/Users/yehoshua/MATLAB-Drive/YEHOSHUA_NEUTRAL_PDE_EXPORTS/20260713T234010Z_f4e1967e/neutral_wave_atlas_v1.png",
+  "pde_atlas_sha256": "afba00219d0ec28168f30aaab352bf6074aa048f1b596203376ed7807425716f",
+  "pde_mode_count": 3,
+  "work_size": [
+    256,
+    256
+  ],
+  "seed": 271828,
+  "reference_epistemic_status": "HYPOTHETICAL_NOT_HISTORICAL_IDENTITY",
+  "theta_star": [
+    -0.014120603284739318,
+    0.0028024559202809085,
+    -0.0011510119272838595,
+    0.0026188916997899369,
+    0.005985188316338123,
+    -0.0041300274572413,
+    -0.001336663913583289,
+    0.0038641480884392906,
+    0.0026556225600567187
+  ],
+  "theta_final": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    0.0026556225600567187
+  ],
+  "optimizer": {
+    "exitflag": 0,
+    "output": {
+      "iterations": 48,
+      "funcCount": 71,
+      "algorithm": "Nelder-Mead simplex direct search",
+      "message": "Exiting: Maximum number of iterations has been exceeded\n         - increase MaxIter option.\n         Current function value: 220337349829165661992871195049984.000000 \n"
+    }
+  }
+}

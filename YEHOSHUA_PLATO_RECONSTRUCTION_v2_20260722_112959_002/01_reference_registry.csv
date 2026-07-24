@@ -1,0 +1,4 @@
+index,object_id,view,weight_class,weight,image_file
+1,procedural_hypothesis_01,front_hypothesis,C,0.333333333333333,procedural://plato_hypothesis_01
+2,procedural_hypothesis_02,left_hypothesis,C,0.333333333333333,procedural://plato_hypothesis_02
+3,procedural_hypothesis_03,right_hypothesis,C,0.333333333333333,procedural://plato_hypothesis_03
