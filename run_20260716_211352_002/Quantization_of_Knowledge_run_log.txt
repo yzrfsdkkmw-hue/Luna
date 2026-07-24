@@ -1,0 +1,83 @@
+
+============================================================
+ Quantization_of_Knowledge
+ For_The_Quantization_of_Knowledge
+ Run: 20260716_211352_002
+============================================================
+
+Computing source SHA256...
+SHA256 matched.
+[01/13] Canonical H5 loaded in 1.948 s
+[02/13] Channel integration completed in 0.099 s
+  Multiscale Gaussian 1/7, sigma=0.750
+  Multiscale Gaussian 2/7, sigma=1.500
+  Multiscale Gaussian 3/7, sigma=3.000
+  Multiscale Gaussian 4/7, sigma=6.000
+  Multiscale Gaussian 5/7, sigma=12.000
+  Multiscale Gaussian 6/7, sigma=24.000
+  Multiscale Gaussian 7/7, sigma=40.000
+  Spectral band 1/8, 0.00000 -> 0.00800 cycles/pixel
+  Spectral band 2/8, 0.00800 -> 0.01600 cycles/pixel
+  Spectral band 3/8, 0.01600 -> 0.03200 cycles/pixel
+  Spectral band 4/8, 0.03200 -> 0.06400 cycles/pixel
+  Spectral band 5/8, 0.06400 -> 0.12500 cycles/pixel
+  Spectral band 6/8, 0.12500 -> 0.25000 cycles/pixel
+  Spectral band 7/8, 0.25000 -> 0.50000 cycles/pixel
+  Spectral band 8/8, 0.50000 -> 0.70000 cycles/pixel
+[03/13] Differential, multiscale, and spectral fields completed in 0.317 s
+[04/13] Display operator completed in 0.249 s
+  Spectral integration 10/81, lambda=425.0 nm
+  Spectral integration 20/81, lambda=475.0 nm
+  Spectral integration 30/81, lambda=525.0 nm
+  Spectral integration 40/81, lambda=575.0 nm
+  Spectral integration 50/81, lambda=625.0 nm
+  Spectral integration 60/81, lambda=675.0 nm
+  Spectral integration 70/81, lambda=725.0 nm
+  Spectral integration 80/81, lambda=775.0 nm
+  Spectral integration 81/81, lambda=780.0 nm
+[05/13] Optical and cone fields completed in 0.205 s
+  Transduction step 16/192
+  Transduction step 32/192
+  Transduction step 48/192
+  Transduction step 64/192
+  Transduction step 80/192
+  Transduction step 96/192
+  Transduction step 112/192
+  Transduction step 128/192
+  Transduction step 144/192
+  Transduction step 160/192
+  Transduction step 176/192
+  Transduction step 192/192
+[06/13] Transduction dynamics completed in 2.266 s
+[07/13] Retinal fields completed in 0.192 s
+  V1 filter 8/112, wavelength=4.0, angle=78.75 deg
+  V1 filter 16/112, wavelength=4.0, angle=168.75 deg
+  V1 filter 24/112, wavelength=6.0, angle=78.75 deg
+  V1 filter 32/112, wavelength=6.0, angle=168.75 deg
+  V1 filter 40/112, wavelength=9.0, angle=78.75 deg
+  V1 filter 48/112, wavelength=9.0, angle=168.75 deg
+  V1 filter 56/112, wavelength=13.0, angle=78.75 deg
+  V1 filter 64/112, wavelength=13.0, angle=168.75 deg
+  V1 filter 72/112, wavelength=19.0, angle=78.75 deg
+  V1 filter 80/112, wavelength=19.0, angle=168.75 deg
+  V1 filter 88/112, wavelength=28.0, angle=78.75 deg
+  V1 filter 96/112, wavelength=28.0, angle=168.75 deg
+  V1 filter 104/112, wavelength=42.0, angle=78.75 deg
+  V1 filter 112/112, wavelength=42.0, angle=168.75 deg
+[08/13] V1 complex bank completed in 1.910 s
+[09/13] Knowledge quantization completed in 0.160 s (96 cores)
+[10/13] Knowledge relations completed in 0.033 s (230 edges)
+  Coupled state step 32/384
+  Coupled state step 64/384
+  Coupled state step 96/384
+  Coupled state step 128/384
+  Coupled state step 160/384
+  Coupled state step 192/384
+  Coupled state step 224/384
+  Coupled state step 256/384
+  Coupled state step 288/384
+  Coupled state step 320/384
+  Coupled state step 352/384
+  Coupled state step 384/384
+[11/13] Coupled state evolution completed in 0.664 s
+[12/13] Symbol calibration completed in 0.006 s
