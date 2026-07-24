@@ -1,0 +1,45 @@
+CALCULUS_TIME_ETA_CONNECTOR_V1_1
+================================
+
+H5 file: jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+Dataset: /n_5_composite_field_1000x1000/data
+
+TimeKernel source files:
+phase schedule: time/projectVectorVision_timeKernel_20260706_222533_phase_schedule.csv
+summary json:   time/projectVectorVision_timeKernel_20260706_222533_summary.json
+frequency csv:  time/projectVectorVision_timeKernel_20260706_222533_frequency_report.csv
+
+Summary values:
+dense_peaks_found:          53
+dominant_period_samples:    1000
+dominant_period_sec:        0.759301443
+dominant_frequency_hz:      1.317000000
+sample_start:               765888
+sample_end:                 805398
+mapped_duration_sec:        30.000000
+sensor_rate_hz:             60.000000
+
+Top-line metrics:
+source_retention_corr:      0.982056
+decode_presence_mean:       0.127588
+time_eta_abs_corr:          0.304705
+calculus_time_atoms_corr:   0.083275
+
+Detailed metrics:
+source_retention_corr        0.98205582
+time_eta_abs_corr            0.30470471
+calculus_time_atoms_corr     0.08327472
+limit_timed_abs_corr         0.07153345
+derivative_timed_abs_corr    0.14948567
+integral_timed_abs_corr      0.20183427
+laplacian_timed_abs_corr     0.11846213
+taylor_timed_abs_corr        0.21405030
+riemann_timed_abs_corr       0.05295549
+peak_anchor_abs_corr         0.07565347
+phase_cos_abs_corr           0.00392380
+decode_presence_mean         0.12758780
+
+Interpretation:
+- V1.1 fixes NaN / display failure from V1.
+- This is a visual mathematical encoding test, not proof of human decoding.
+- Next step should be a dedicated decoder for this calculus-time connector.

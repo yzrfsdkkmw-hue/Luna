@@ -1,0 +1,24 @@
+CALCULUS_ETA_TRIAL_V1
+=====================
+
+H5 file: jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+Dataset: /n_5_composite_field_1000x1000/data
+Output folder: CALCULUS_ETA_TRIAL_V1
+
+Fields created:
+- source_field: raw normalized H5 field
+- eta_carrier: faint phase-like visual carrier
+- calculus_atoms: limit / derivative / integral / concavity / Taylor / Riemann
+- unified_calculus_eta: SSOT + weak encoded calculus fields
+
+Concept mapping:
+limitField      = convergence toward center
+Gmag            = derivative / local change
+Icum            = integral / accumulation
+Laplacian       = concavity / second derivative
+taylorField     = local polynomial approximation
+riemannField    = weak rectangular partition grid
+
+Safety:
+- H5 was read only
+- No source file modified

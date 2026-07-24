@@ -1,0 +1,13 @@
+metric,value
+source_retention_corr,0.98205581539144
+time_eta_abs_corr,0.304704710880301
+calculus_time_atoms_corr,0.0832747216551638
+limit_timed_abs_corr,0.0715334484013283
+derivative_timed_abs_corr,0.149485666240176
+integral_timed_abs_corr,0.201834265657701
+laplacian_timed_abs_corr,0.118462133622762
+taylor_timed_abs_corr,0.214050297980985
+riemann_timed_abs_corr,0.0529554883344918
+peak_anchor_abs_corr,0.075653465267324
+phase_cos_abs_corr,0.00392379987477137
+decode_presence_mean,0.1275877997915
