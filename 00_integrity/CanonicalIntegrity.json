@@ -1,10 +1,11 @@
 {
-  "version": "YEHOSHUA_string_theory_foundations_law_atlas_v4",
   "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
   "expected_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
   "actual_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
   "hash_match": true,
-  "subject": "visual_learning",
-  "domain": "foundational_string_theory_and_basic_laws",
-  "source_policy": "H5 tensors are canonical visual-learning sources; they are not experimental measurements of string theory."
+  "source_bundle_root": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_Orch_tensor_training_bundle_v1",
+  "source_bundle_file_count": 50,
+  "output_strategy": "isolated sibling bundle with staging publication",
+  "semantic_policy": "Canonical H5 values are auxiliary numeric visual-source tensors only; they are not particle measurements, evidence, or observations.",
+  "created_local_date": "2026-07-19"
 }
