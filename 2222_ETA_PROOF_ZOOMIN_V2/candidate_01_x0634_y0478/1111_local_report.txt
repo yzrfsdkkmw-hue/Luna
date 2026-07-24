@@ -1,0 +1,31 @@
+ETA_PROOF_ZOOMIN_V2_HEAVY — Candidate 1
+========================================
+
+Candidate location:
+centroid_x: 633.5615
+centroid_y: 478.3124
+crop rows: 298:658
+crop cols: 454:814
+
+Observed local scores:
+obsTopMean_candidateScore: 0.83421094
+obsTopMean_agreement:      0.82746263
+obsTopMean_survival:       0.96873089
+
+Random-window p-values:
+pScore:                    0.08551069
+pAgreement:                0.07125891
+pSurvival:                 0.00237530
+combinedP_simple:          0.00712589
+
+Local structure stats:
+core_density:              0.01701951
+component_count:           3
+largest_component_area:    1054.00000000
+component_dominance:       0.47520289
+anisotropy:                0.88990653
+orientation_deg:           139.08866506
+mean_core_score:           0.82865702
+mean_core_survival:        0.83884303
+mean_core_ridge:           0.53151930
+mean_core_nullsurprise:    0.55171768

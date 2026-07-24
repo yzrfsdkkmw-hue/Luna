@@ -1,0 +1,19 @@
+ETA_PROOF_ZOOMIN_V2_HEAVY
+=========================
+
+Previous folder: 1111_ETA_PROOF_FORECAST_V1
+Output folder:   2222_ETA_PROOF_ZOOMIN_V2
+TopK:            3
+cropRadius:      180
+nLocalBootstrap: 260
+nRandomWindows:  420
+
+Summary:
+
+#1 | x=633.56 y=478.31 | pScore=0.0855107 pAgree=0.0712589 pStable=0.0023753 | anisotropy=0.8899 | dominance=0.4752 | orientation=139.09 deg
+#2 | x=783.82 y=337.18 | pScore=0.0760095 pAgree=0.0712589 pStable=0.0023753 | anisotropy=0.8893 | dominance=0.4748 | orientation=139.07 deg
+#3 | x=364.69 y=478.47 | pScore=0.472684 pAgree=0.494062 pStable=0.0023753 | anisotropy=0.9086 | dominance=0.7316 | orientation=94.77 deg
+
+Interpretation rule:
+- A strong candidate should have low random-window p-values, high anisotropy, and high component dominance.
+- This still does not prove the structure. It tells us where proof should focus next.
