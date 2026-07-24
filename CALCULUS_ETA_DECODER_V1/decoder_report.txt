@@ -1,0 +1,49 @@
+CALCULUS_ETA_DECODER_V1
+=======================
+
+Trial folder: CALCULUS_ETA_TRIAL_V1
+Output folder: CALCULUS_ETA_DECODER_V1
+
+H5 file: jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+Dataset: /n_5_composite_field_1000x1000/data
+
+Top-line interpretation:
+- source_retention_corr:        0.781758
+- decode_presence_mean:         0.530555
+- symmetry_mean_score_01:       0.969693
+- overall_experimental_score:   0.722539
+
+Detailed metrics:
+
+source_retention_corr              0.78175792    Correlation between unified image and H5/source field.
+source_png_vs_h5_corr              0.99996563    If H5 was found: correlation between PNG source and H5 source.
+source_mse                         0.02746445    Mean squared difference between unified image and source.
+source_psnr                        15.61229084    PSNR-like similarity score. Higher means more source preservation.
+residual_energy_ratio              0.60689020    How much non-source encoded signal remains after removing source base.
+eta_carrier_abs_corr               0.88122858    Decoded presence of expected eta carrier in residual.
+calculus_atoms_abs_corr            0.91119013    Decoded presence of combined calculus atoms in residual.
+limit_abs_corr                     0.89810726    Limit/convergence field signature.
+derivative_phase_abs_corr          0.01314055    Directional derivative-like phase signature.
+gradient_abs_corr                  0.51333373    Gradient / local change signature.
+integral_abs_corr                  0.05883674    Integral / accumulation signature.
+laplacian_abs_corr                 0.10252549    Concavity / second derivative signature.
+taylor_abs_corr                    0.90534716    Taylor / local polynomial approximation signature.
+riemann_abs_corr                   0.05731570    Riemann grid / partition signature.
+center_convergence_score           0.82648747    Residual energy concentration near center; proxy for limit/convergence.
+riemann_grid_contrast_score        0.47540828    Residual energy on expected Riemann grid lines.
+radial_taylor_profile_corr         0.96452704    Correlation between radial residual profile and Taylor-like profile.
+symmetry_left_right_corr           0.97580887    Left-right visual symmetry.
+symmetry_up_down_corr              0.90296363    Up-down visual symmetry.
+symmetry_main_diagonal_corr        0.28523055    Main diagonal symmetry, only valid for square image.
+symmetry_anti_diagonal_corr        0.28053743    Anti-diagonal symmetry, only valid for square image.
+decode_presence_mean               0.53055524    Mean decoded calculus/eta signature presence.
+source_retention_score_01          0.89087896    Source retention mapped to 0..1.
+symmetry_mean_score_01             0.96969313    Mean symmetry score mapped to 0..1.
+overall_experimental_score         0.72253922    Combined score: decoding + source preservation + symmetry.
+
+Suggested reading:
+0.00-0.20 = weak / mostly visual only
+0.20-0.40 = detectable but fragile
+0.40-0.60 = meaningful first-pass encoding
+0.60-0.80 = strong encoding
+0.80-1.00 = very strong, probably too explicit / less eta-like
