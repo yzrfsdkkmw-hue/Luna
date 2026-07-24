@@ -1,0 +1,28 @@
+YEHOSHUA CALC1 V16.3 CANDIDATE RUN LOG
+Created: 2026-07-11 01:36:21
+Status: CANDIDATE_FOR_REVIEW
+SSOT: /Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+SSOT SHA256: 5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+Dataset: /n_5_composite_field_1000x1000/data
+Prepare note: interpreted 5,000,000 values as 1000x1000x5 channel field
+Layout note: layout_B reshape(v,5,1000,1000)->HxWxC | selected by locality score 4.038406
+Formula: f002_derivative_linearity = d/dx[a f(x)+b g(x)] = a f'(x)+b g'(x)
+Formula layout: two_row_readable
+Frames: 16
+Anchors: 4
+Methods: 3
+Manifest rows: 12
+
+RESULT ROWS
+anchor=1 method=m01_projection_visible stability=0.970692352 preservation=0.976936936 motion_ratio=2.627224445 alignment=0.569293916 gain=1.495662928
+anchor=1 method=m02_projection_balanced stability=0.986626482 preservation=0.974025130 motion_ratio=2.437391520 alignment=0.511677623 gain=1.247158647
+anchor=1 method=m03_projection_structural stability=0.990169171 preservation=0.969171882 motion_ratio=2.948244572 alignment=0.502846718 gain=1.482515097
+anchor=2 method=m01_projection_visible stability=0.975357119 preservation=0.977743745 motion_ratio=2.561437607 alignment=0.554426730 gain=1.420129418
+anchor=2 method=m02_projection_balanced stability=0.988520932 preservation=0.975234032 motion_ratio=2.287034750 alignment=0.502019346 gain=1.148135662
+anchor=2 method=m03_projection_structural stability=0.991159618 preservation=0.971496284 motion_ratio=2.710332632 alignment=0.505125821 gain=1.369058967
+anchor=3 method=m01_projection_visible stability=0.980994252 preservation=0.981738210 motion_ratio=2.723172426 alignment=0.540669620 gain=1.472336650
+anchor=3 method=m02_projection_balanced stability=0.991468807 preservation=0.980081260 motion_ratio=2.522821188 alignment=0.517754674 gain=1.306202412
+anchor=3 method=m03_projection_structural stability=0.993139231 preservation=0.976588488 motion_ratio=2.983799696 alignment=0.548110247 gain=1.635451198
+anchor=4 method=m01_projection_visible stability=0.956510897 preservation=0.985094786 motion_ratio=1.335841775 alignment=0.491807431 gain=0.656976938
+anchor=4 method=m02_projection_balanced stability=0.980004672 preservation=0.989811957 motion_ratio=1.311671495 alignment=0.459925473 gain=0.603271127
+anchor=4 method=m03_projection_structural stability=0.988030593 preservation=0.993686497 motion_ratio=1.397719145 alignment=0.484004468 gain=0.676502287
