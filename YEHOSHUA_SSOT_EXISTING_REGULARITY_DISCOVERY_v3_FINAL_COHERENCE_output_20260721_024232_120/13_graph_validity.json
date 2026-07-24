@@ -1,0 +1,9 @@
+{
+  "node_count": 272,
+  "edge_count": 822,
+  "largest_connected_component": 266,
+  "finite_node_table": true,
+  "finite_laplacian_spectrum": true,
+  "is_valid": true,
+  "status": "VALID_GRAPH"
+}
