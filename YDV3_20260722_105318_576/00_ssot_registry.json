@@ -1,0 +1,549 @@
+{
+  "file": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "expected_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "hash_match": true,
+  "dataset_count": 27,
+  "datasets": [
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/roots_2d"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        240
+      ],
+      "group_path": [
+        "/n_2_e8_lattice"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/connections/a"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        1832
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/connections"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/connections/b"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        1832
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/connections"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/connections/d"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        1832,
+        1
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/connections"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/laplacian_modes/modes"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        12,
+        240
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/laplacian_modes"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/laplacian_modes/xy"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        240
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/laplacian_modes"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/streamlines/logmag"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        278629,
+        1
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/streamlines"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/streamlines/sid"
+      ],
+      "datatype": [
+        "H5T_INTEGER"
+      ],
+      "dataspace_size": [
+        278629,
+        1
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/streamlines"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_2_e8_lattice/streamlines/xy"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        278629
+      ],
+      "group_path": [
+        "/n_2_e8_lattice/streamlines"
+      ],
+      "role": [
+        "INTERNAL_GRAPH_SPECTRAL_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_3_defect_topology/charge"
+      ],
+      "datatype": [
+        "H5T_INTEGER"
+      ],
+      "dataspace_size": [
+        2500,
+        1
+      ],
+      "group_path": [
+        "/n_3_defect_topology"
+      ],
+      "role": [
+        "INTERNAL_DEFECT_TOPOLOGY_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_3_defect_topology/degree"
+      ],
+      "datatype": [
+        "H5T_INTEGER"
+      ],
+      "dataspace_size": [
+        2500,
+        1
+      ],
+      "group_path": [
+        "/n_3_defect_topology"
+      ],
+      "role": [
+        "INTERNAL_DEFECT_TOPOLOGY_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_3_defect_topology/pos"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        2500
+      ],
+      "group_path": [
+        "/n_3_defect_topology"
+      ],
+      "role": [
+        "INTERNAL_DEFECT_TOPOLOGY_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_4_geodesic_field/curl"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        48400,
+        1
+      ],
+      "group_path": [
+        "/n_4_geodesic_field"
+      ],
+      "role": [
+        "INTERNAL_GEODESIC_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_4_geodesic_field/raw_points"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        194527
+      ],
+      "group_path": [
+        "/n_4_geodesic_field"
+      ],
+      "role": [
+        "INTERNAL_GEODESIC_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_4_geodesic_field/vel"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        48400
+      ],
+      "group_path": [
+        "/n_4_geodesic_field"
+      ],
+      "role": [
+        "INTERNAL_GEODESIC_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_4_geodesic_field/xy"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        2,
+        48400
+      ],
+      "group_path": [
+        "/n_4_geodesic_field"
+      ],
+      "role": [
+        "INTERNAL_GEODESIC_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_5_composite_field_1000x1000/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        5,
+        1.0E+6
+      ],
+      "group_path": [
+        "/n_5_composite_field_1000x1000"
+      ],
+      "role": [
+        "PRIMARY_OBSERVED_FIELD"
+      ],
+      "required": true,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_6_field_maps_v3_800x800/chamber_field/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        3,
+        640000
+      ],
+      "group_path": [
+        "/n_6_field_maps_v3_800x800/chamber_field"
+      ],
+      "role": [
+        "INTERNAL_FIELD_BASIS_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_6_field_maps_v3_800x800/fuchsian_tiling/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        5,
+        640000
+      ],
+      "group_path": [
+        "/n_6_field_maps_v3_800x800/fuchsian_tiling"
+      ],
+      "role": [
+        "INTERNAL_FIELD_BASIS_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_6_field_maps_v3_800x800/ginibre_field/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        3,
+        640000
+      ],
+      "group_path": [
+        "/n_6_field_maps_v3_800x800/ginibre_field"
+      ],
+      "role": [
+        "INTERNAL_FIELD_BASIS_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_6_field_maps_v3_800x800/modular_eta/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        3,
+        640000
+      ],
+      "group_path": [
+        "/n_6_field_maps_v3_800x800/modular_eta"
+      ],
+      "role": [
+        "INTERNAL_FIELD_BASIS_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_6_field_maps_v3_800x800/weyl_field/data"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        5,
+        640000
+      ],
+      "group_path": [
+        "/n_6_field_maps_v3_800x800/weyl_field"
+      ],
+      "role": [
+        "INTERNAL_FIELD_BASIS_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/n_7_apollonian_circle_model/e8_chamber_angles"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        9,
+        1
+      ],
+      "group_path": [
+        "/n_7_apollonian_circle_model"
+      ],
+      "role": [
+        "INTERNAL_CIRCULAR_MANIFOLD_REFERENCE"
+      ],
+      "required": false,
+      "runtime_numeric_input": true
+    },
+    {
+      "dataset_path": [
+        "/spectral_mappings/crystal_colors"
+      ],
+      "datatype": [
+        "H5T_INTEGER"
+      ],
+      "dataspace_size": [
+        9,
+        7
+      ],
+      "group_path": [
+        "/spectral_mappings"
+      ],
+      "role": [
+        "VISUALIZATION_ONLY_MAPPING"
+      ],
+      "required": false,
+      "runtime_numeric_input": false
+    },
+    {
+      "dataset_path": [
+        "/spectral_mappings/crystal_stops"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        9,
+        1
+      ],
+      "group_path": [
+        "/spectral_mappings"
+      ],
+      "role": [
+        "VISUALIZATION_ONLY_MAPPING"
+      ],
+      "required": false,
+      "runtime_numeric_input": false
+    },
+    {
+      "dataset_path": [
+        "/spectral_mappings/phase_colors"
+      ],
+      "datatype": [
+        "H5T_INTEGER"
+      ],
+      "dataspace_size": [
+        6,
+        7
+      ],
+      "group_path": [
+        "/spectral_mappings"
+      ],
+      "role": [
+        "VISUALIZATION_ONLY_MAPPING"
+      ],
+      "required": false,
+      "runtime_numeric_input": false
+    },
+    {
+      "dataset_path": [
+        "/spectral_mappings/phase_stops"
+      ],
+      "datatype": [
+        "H5T_FLOAT"
+      ],
+      "dataspace_size": [
+        6,
+        1
+      ],
+      "group_path": [
+        "/spectral_mappings"
+      ],
+      "role": [
+        "VISUALIZATION_ONLY_MAPPING"
+      ],
+      "required": false,
+      "runtime_numeric_input": false
+    }
+  ]
+}

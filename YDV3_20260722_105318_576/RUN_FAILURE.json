@@ -1,0 +1,18 @@
+{
+  "status": "INVALID_OUTPUT",
+  "identifier": "MATLAB:heterogeneousStrucAssignment",
+  "message": "Subscripted assignment between dissimilar structures.",
+  "stack": [
+    {
+      "file": "/Users/yehoshua/Documents/Codex/2026-07-22/new-chat/outputs/YEHOSHUA_DISCOVERY_V3.m",
+      "name": "compareInternalReferenceDatasets",
+      "line": 2191
+    },
+    {
+      "file": "/Users/yehoshua/Documents/Codex/2026-07-22/new-chat/outputs/YEHOSHUA_DISCOVERY_V3.m",
+      "name": "YEHOSHUA_DISCOVERY_V3",
+      "line": 151
+    }
+  ],
+  "timestamp": "20260722_105318_576"
+}

@@ -1,0 +1,36 @@
+[2026-07-22 10:53:52.713] Run started: 20260722_105352_699
+[2026-07-22 10:53:52.715] SSOT file: /Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+[2026-07-22 10:53:52.719] Primary dataset: /n_5_composite_field_1000x1000/data
+[2026-07-22 10:53:52.855] Computed SHA256: 5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+[2026-07-22 10:53:52.860] Hash match: 1
+[2026-07-22 10:53:53.286] Primary H5 size: [5 1000000]
+[2026-07-22 10:53:53.291] Shape compatible: 1
+[2026-07-22 10:53:53.296] Index round trip valid: 1
+[2026-07-22 10:53:53.379] Primary field decoded: [1000 1000 5]
+[2026-07-22 10:53:53.398] Primary range: [0, 1]
+[2026-07-22 10:53:53.491] Internal reference datasets loaded from the same H5.
+[2026-07-22 10:53:55.827] Intrinsic field family built.
+[2026-07-22 10:53:55.836] PCA basis first vector: [-0.55364 -0.50354 -0.25894 0.015168 -0.61045]
+[2026-07-22 10:53:56.030] Coarse global peak t_step=1079, source≈539751, value=1.
+[2026-07-22 10:53:56.042] Coarse memory peak lag=-123 steps.
+[2026-07-22 10:53:56.278] Fine window: [519996,559506], length=39511.
+[2026-07-22 10:53:56.291] Fine global peak source=520514, value=1.
+[2026-07-22 10:53:56.464] TimeKernel period=1000 samples, f=1.317 Hz, events=122.
+[2026-07-22 10:53:56.480] TimeKernel phase concentration=0.104413, mean phase=-2.39027.
+[2026-07-22 10:53:56.555] Anchor layer count: 12.
+[2026-07-22 10:53:56.624] Event layer count: 122.
+[2026-07-22 10:53:57.099] Complex anchor-phase maps built.
+[2026-07-22 10:53:59.588] Topology: cores=96, Y-junctions=10, branches=76.
+[2026-07-22 10:54:00.421] Graph: nodes=272, edges=822, largest component=266.
+[2026-07-22 10:54:00.761] Geometry: intrinsic mean=0.537802, projection residual=0.356011.
+[2026-07-22 10:54:01.075] Manifold: disk=0.580578, neighbor=0.0215689, apollonian=0.277477.
+[2026-07-22 10:54:01.275] Knowledge quanta: 272 nodes; core family score=0.428628.
+[2026-07-22 10:54:01.294] RUN FAILED: Subscripted assignment between dissimilar structures.
+[2026-07-22 10:54:01.531] Subscripted assignment between dissimilar structures.
+
+Error in YEHOSHUA_DISCOVERY_V3>compareInternalReferenceDatasets (line 2192)
+    comparisons(end+1) = c; %#ok<AGROW>
+    ^^^^^^^^^^^^^^^^^^
+Error in YEHOSHUA_DISCOVERY_V3 (line 151)
+        internalComparisons = compareInternalReferenceDatasets(fields, topology, ...
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
