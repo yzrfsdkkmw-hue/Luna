@@ -1,0 +1,8 @@
+{
+  "name": "02_raw_density_salience_roi",
+  "title": "Raw-point density and salience ROIs",
+  "source": "/n_4_geodesic_field/raw_points",
+  "formula": "D=log(1+hist2(raw_points)); S=multiscale salience(D); ROI=top salience windows",
+  "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/02_raw_density_salience_roi.png",
+  "policy": "H5 authority + Our_Language deterministic human visual contract"
+}

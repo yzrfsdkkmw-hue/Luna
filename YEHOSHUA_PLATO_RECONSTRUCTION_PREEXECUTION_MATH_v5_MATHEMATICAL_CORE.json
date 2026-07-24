@@ -1,0 +1,320 @@
+{
+  "schema": "YEHOSHUA_PLATO_RECONSTRUCTION_PREEXECUTION_MATH_v5_MATHEMATICAL_CORE",
+  "version": 5,
+  "sources": {
+    "ssot": {
+      "root": "/MATLAB Drive/modelTRAINING",
+      "file": "/MATLAB Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+      "dataset": "/n_5_composite_field_1000x1000/data",
+      "sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+      "shape": [
+        1000,
+        1000,
+        5
+      ],
+      "value_count": 5000000,
+      "layout": "permute(reshape(v,[5,1000,1000]),[2,3,1])"
+    },
+    "auxiliary": [
+      {
+        "pattern": "Quantization_of_Knowledge_derived_fields*.h5"
+      },
+      {
+        "file": "OrchParticleFoundationsLearningTensors.h5",
+        "maximum_maps": 32
+      },
+      {
+        "file": "StringTheorySymbolStructureWeights.h5_or_mat",
+        "maximum_maps": 96
+      },
+      {
+        "pattern": "yehoshua_v15_*_temporal_patch*.mat"
+      },
+      {
+        "file": "Luna_architecture.json"
+      },
+      {
+        "file": "luna-geodesic-model-v1.json"
+      }
+    ],
+    "historical": {
+      "objects": 3,
+      "views": [
+        "front",
+        "left_three_quarter",
+        "right_three_quarter",
+        "profile_if_available"
+      ],
+      "metadata": [
+        "museum_or_collection",
+        "inventory_id",
+        "object_type",
+        "estimated_date",
+        "copy_relation",
+        "view_angle",
+        "image_dimensions",
+        "source_hash",
+        "crop_transform",
+        "damage_mask",
+        "restoration_mask",
+        "provenance_grade"
+      ],
+      "weights": {
+        "A": 1.0,
+        "B": 0.35,
+        "C": 0.05
+      }
+    }
+  },
+  "symbols": {
+    "F": "F_SSOT",
+    "Y": "{Y_j}_{j=1}^J",
+    "theta": "(s_low,s_detail,a_soft,hair,age,expression,pose,illumination,camera)",
+    "nu_j": "(style_j,material_j,copy_bias_j,damage_j,restoration_j,capture_j)",
+    "kappa_i": "(p_i,a_i,eta_i,mu_i,tau_i)",
+    "A": "[A_ij]",
+    "D": "diag(sum_j A_ij)",
+    "L_K": "D-A",
+    "q": "(q1,...,q8)",
+    "U": "U(x,y,t)"
+  },
+  "domains": {
+    "Omega": "[1,H]x[1,W]",
+    "Lambda_nm": "[380,780]",
+    "Omega_w": "[1,256]x[1,256]",
+    "F_shape": "[1000,1000,5]"
+  },
+  "source_decode": {
+    "F": "permute(reshape(v,[5,1000,1000]),[2,3,1])",
+    "z_c": "(F_c-median(F_c))/(1.4826*MAD(F_c)+eps)",
+    "Y_F": "[vec(z_1),...,vec(z_5)]",
+    "svd": "Y_F=U_F*Sigma_F*V_F^T",
+    "R_r": "Y_F-Y_F*V_r*V_r^T",
+    "r": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "reference_normalization": {
+    "T_j": "argmin_T sum_k ||T*l_jk-lbar_k||_2^2",
+    "x_j_prime": "T_j*x_j",
+    "w_j": "(r_j*u_j)/(sigma_j^2+eps)",
+    "w_j_normalized": "w_j/sum_m w_m",
+    "w_object_o": "1/n_views(o)"
+  },
+  "observation_model": {
+    "Y_j": "C_j(P_j(D_j(S_j(M(theta)))))+epsilon_j",
+    "joint_state": "p(theta,{nu_j}|Y,F,T_aux)"
+  },
+  "phototransduction": {
+    "I_A": "T_A(I_0;C,W,B,rho)",
+    "S_lambda": "sum_{c in {R,G,B}} I_A^c*P_c(lambda)",
+    "Q_k": "integral_Lambda S(lambda,x,y)*C_k(lambda)*(lambda/(h*c)) dlambda",
+    "dO_dt": "kO_plus*I*(1-O)-kO_minus*O",
+    "dT_dt": "kT_plus*O*(1-T)-kT_minus*T",
+    "dP_dt": "kP_plus*T*(1-P)-kP_minus*P",
+    "dc_dt": "k_syn*(1-c)-k_hyd*P*c",
+    "g_CNG": "c^n/(K_CNG^n+c^n)",
+    "V_photo": "V_dark-G_hyp*(1-g_CNG)",
+    "Glu": "1/(1+exp(-(V_photo-theta_Glu)/s_Glu))"
+  },
+  "retina_lgn_v1": {
+    "DoG": "G_sigma_c*V_photo-alpha_s*G_sigma_s*V_photo",
+    "R_ON": "max(DoG,0)",
+    "R_OFF": "max(-DoG,0)",
+    "R_norm": "R/(G_sigma_d*abs(R)+eps_d)",
+    "Z_theta_lambda": "(g_even^{theta,lambda}+i*g_odd^{theta,lambda})*R_norm",
+    "E_V1": "sum_{theta,lambda}|Z_theta_lambda|^2",
+    "eta_V1": "arg(sum_{theta,lambda} omega_theta_lambda*Z_theta_lambda)",
+    "P_coh": "|sum omega*Z|/(sum omega*|Z|+eps)"
+  },
+  "orch": {
+    "O_m": "sigmoid(K_m*F_V1+b_m)",
+    "O": "rank01(sum_m beta_m*O_m)"
+  },
+  "eta_phase": {
+    "Z": "A*exp(i*eta)",
+    "w_Gamma": "(1/(2*pi))*contour_integral_Gamma grad(eta)·dl",
+    "Curv": "laplacian(real(Z))",
+    "S_q": "rank01(E*(0.25+0.75*P_coh)*(1+0.50*|w|)*(1+0.25*|Curv|))",
+    "A_ij": "exp(-||p_i-p_j||^2/s_p^2)*exp(-||mu_i-mu_j||^2/s_mu^2)*((1+cos(eta_i-eta_j))/2)*(0.75+0.25*exp(-|q_i-q_j|))",
+    "D_ii": "sum_j A_ij",
+    "L_K": "D-A"
+  },
+  "inverse_model": {
+    "E_data": "sum_j w_j*rho(||Phi(Y_j)-Phi(C_hat_j(P_hat_j(D_hat_j(S_hat_j(M(theta))))))||_{Sigma_j^{-1}}^2)",
+    "E_land": "sum_{j,k} w_j*m_jk*||l_jk-pi_j(v_k(theta))||_2^2",
+    "E_sil": "sum_j w_j*Chamfer(Sil(Y_j),Sil(Render_j(theta)))",
+    "E_norm": "sum_j w_j*||N_j_obs-N_j_render(theta)||_{W_j}^2",
+    "E_sym": "||V_L(theta)-Pi*V_R(theta)||_2^2",
+    "E_smooth": "||L_M*V(theta)||_2^2",
+    "E_anat": "sum_r hinge(b_r_minus(theta))^2+hinge(b_r_plus(theta))^2",
+    "E_copy": "sum_j ||alpha_j||_2^2/sigma_copy^2",
+    "E_style": "sum_j ||beta_j||_2^2/sigma_style^2",
+    "rho_u": "2*delta^2*(sqrt(1+u/delta^2)-1)"
+  },
+  "regularization": {
+    "W_xy": "1+lambda_O*O+lambda_Q*S_q+lambda_P*P_coh",
+    "E_graph": "||spec_k(L_K_cand)-spec_k(L_K_ref)||_2^2+lambda_A*||A_cand-A_ref||_F^2",
+    "E_ssot": "||alpha_F||_2^2+lambda_res*sum_{r=1}^4 pi_r*||Proj_{R_r}(F_render-F_ref)||_2^2",
+    "E_tensor": "lambda_graph*E_graph+lambda_ssot*E_ssot+lambda_orch*||O_cand-O_ref||_2^2"
+  },
+  "objective": {
+    "E_total": "lambda_d*E_data+lambda_l*E_land+lambda_s*E_sil+lambda_n*E_norm+lambda_y*E_sym+lambda_m*E_smooth+lambda_a*E_anat+lambda_c*E_copy+lambda_t*E_style+lambda_T*E_tensor"
+  },
+  "luna_geodesic": {
+    "g_q": "J(q)^T*W_q*J(q)+diag(lambda_q)+eps*I",
+    "geodesic": "d2q^k/ds2+Gamma^k_ij(q)*(dq^i/ds)*(dq^j/ds)=0",
+    "q_next": "Exp_{q_n}(Delta_s*v_n)"
+  },
+  "uncertainty_field": {
+    "dU_dt": "D_U*laplacian(U)-lambda_U*U+S_unc",
+    "S_unc": "rank01(Var_n[I_n]+DamageMask+RestorationMask+LOOResidual)",
+    "U_star": "steady_state(U)",
+    "C_map": "exp(-U_star/tau_U)"
+  },
+  "ensemble": {
+    "posterior": "p(theta,nu|Y) proportional exp(-E_total(theta,nu))",
+    "state_star": "(theta_star,nu_star)=argmin E_total",
+    "H": "hessian(E_total(theta_star))+eps*I",
+    "factorization": "L*L^T=H",
+    "theta_n": "theta_star+L^{-T}*xi_n",
+    "xi_n": "N(0,I)",
+    "I_n": "Render(M(theta_n),pi_n,ell_n,a_n)",
+    "I_mean": "(1/N)*sum_n I_n",
+    "I_var": "(1/(N-1))*sum_n (I_n-I_mean)^2"
+  },
+  "optimization": {
+    "sequence": [
+      "landmark_silhouette_fit",
+      "multi_object_consensus",
+      "normal_refinement",
+      "shared_nuisance_alternation",
+      "v1_orch_qok_refinement",
+      "luna_geodesic_update",
+      "laplace_bootstrap_ensemble",
+      "uncertainty_field",
+      "render_2d"
+    ],
+    "solvers": [
+      "lsqnonlin",
+      "fmincon",
+      "patternsearch",
+      "alternating_minimization",
+      "leave_one_object_out"
+    ]
+  },
+  "metrics": {
+    "C_source": "exp(-median_j(E_j)/tau_source)",
+    "C_landmark": "exp(-NRMSE_landmark/tau_landmark)",
+    "C_loo": "exp(-median_j(||theta_star-theta_star_minus_j||_2^2)/tau_loo)",
+    "C_graph": "exp(-E_graph/tau_graph)",
+    "C_posterior": "exp(-trace(Cov(theta))/tau_post)",
+    "C_damage": "1-mean(DamageMask union RestorationMask)",
+    "C_independence": "N_eff/J",
+    "C_total": "(C_source*C_landmark*C_loo*C_graph*C_posterior*C_damage*C_independence)^(1/7)"
+  },
+  "checks": {
+    "sha256": "SHA256(file)==expected_hash",
+    "shape": "shape(F)==[1000,1000,5]",
+    "value_count": "numel(F)==5000000",
+    "finite": "all(isfinite(F(:)))",
+    "weights": "sum_o w_object(o)==1",
+    "landmark": "median_NRMSE<=0.045",
+    "loo": "median_parameter_shift<=0.12",
+    "ensemble_rank": "effective_rank>=4"
+  },
+  "ablation": [
+    {
+      "id": "A",
+      "inputs": [
+        "historical"
+      ],
+      "metrics": [
+        "E_total",
+        "C_total",
+        "I_var"
+      ]
+    },
+    {
+      "id": "B",
+      "inputs": [
+        "historical",
+        "ssot"
+      ],
+      "metrics": [
+        "delta_E_total",
+        "delta_C_total",
+        "delta_I_var"
+      ]
+    },
+    {
+      "id": "C",
+      "inputs": [
+        "historical",
+        "ssot",
+        "orch",
+        "eta_phase"
+      ],
+      "metrics": [
+        "delta_E_total",
+        "delta_C_total",
+        "delta_graph_spectrum",
+        "delta_I_var"
+      ]
+    },
+    {
+      "id": "D",
+      "inputs": [
+        "historical",
+        "ssot",
+        "orch",
+        "eta_phase",
+        "luna"
+      ],
+      "metrics": [
+        "delta_E_total",
+        "delta_C_total",
+        "geodesic_length",
+        "delta_I_var"
+      ]
+    },
+    {
+      "id": "E",
+      "inputs": [
+        "ssot",
+        "orch",
+        "eta_phase",
+        "luna"
+      ],
+      "metrics": [
+        "E_total",
+        "C_total",
+        "I_mean",
+        "I_var",
+        "graph_spectrum"
+      ]
+    }
+  ],
+  "outputs": [
+    "00_run_manifest.json",
+    "01_reference_registry.csv",
+    "02_reference_alignment.png",
+    "03_landmark_consensus.png",
+    "04_shape_depth_consensus.mat",
+    "05_nuisance_parameters.csv",
+    "06_v1_orch_qok.h5",
+    "07_knowledge_quanta.csv",
+    "08_graph_laplacian_spectrum.csv",
+    "09_luna_states.json",
+    "10_visual_ensemble_3x3.png",
+    "11_ensemble_mean.png",
+    "12_uncertainty_map.png",
+    "13_shape_variance_map.png",
+    "14_leave_one_object_out.json",
+    "15_ablation.json",
+    "16_metrics.json"
+  ]
+}

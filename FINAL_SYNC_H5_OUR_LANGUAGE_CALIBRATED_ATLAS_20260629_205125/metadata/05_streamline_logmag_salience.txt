@@ -1,0 +1,4 @@
+Streamline logmag salience
+source: /n_2_e8_lattice/streamlines
+formula: color=salience(normalized mean logmag per sid)
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/05_streamline_logmag_salience.png

@@ -1,0 +1,4 @@
+Integrity summary
+source: H5 + Our_Language contract
+formula: deterministic integrity checks and run summary
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/09_integrity_summary.png

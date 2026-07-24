@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "h5file": "jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "outdir": "EXECUTION_002_TOP_ROOTS_DEGREE_OUTPUT",
+  "roots_count": 240,
+  "edges_count": 1832,
+  "roots_xy_max_abs_diff": 0,
+  "connection_distance_max_abs_diff": 5.2252841026279e-08,
+  "endpoint_match_max_error": 0,
+  "mean_root_degree": 15.2666666666667,
+  "median_root_degree": 13,
+  "max_root_degree": 40,
+  "min_root_degree": 0,
+  "topN": 10,
+  "visual": "EXECUTION_002_TOP_ROOTS_DEGREE_OUTPUT/execution_002_top_roots_degree.png",
+  "top_roots_csv": "EXECUTION_002_TOP_ROOTS_DEGREE_OUTPUT/execution_002_top_roots_degree.csv",
+  "metrics_csv": "EXECUTION_002_TOP_ROOTS_DEGREE_OUTPUT/execution_002_metrics.csv",
+  "degree_distribution_csv": "EXECUTION_002_TOP_ROOTS_DEGREE_OUTPUT/execution_002_degree_distribution.csv"
+}

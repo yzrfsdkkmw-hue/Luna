@@ -1,0 +1,8 @@
+{
+  "name": "03_defect_charge_degree",
+  "title": "Defect charge-degree topology",
+  "source": "/n_3_defect_topology",
+  "formula": "charge=6-degree; palette=Our_Language charge_value",
+  "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/03_defect_charge_degree.png",
+  "policy": "H5 authority + Our_Language deterministic human visual contract"
+}

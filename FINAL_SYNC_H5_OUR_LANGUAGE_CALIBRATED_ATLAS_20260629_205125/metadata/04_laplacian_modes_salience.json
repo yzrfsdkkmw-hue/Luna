@@ -1,0 +1,8 @@
+{
+  "name": "04_laplacian_modes_salience",
+  "title": "Laplacian mode salience",
+  "source": "/n_2_e8_lattice/laplacian_modes",
+  "formula": "color=Our_Language salience(abs(mode))",
+  "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/04_laplacian_modes_salience.png",
+  "policy": "H5 authority + Our_Language deterministic human visual contract"
+}

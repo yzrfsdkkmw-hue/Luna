@@ -1,0 +1,4 @@
+Defect charge-degree topology
+source: /n_3_defect_topology
+formula: charge=6-degree; palette=Our_Language charge_value
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/03_defect_charge_degree.png

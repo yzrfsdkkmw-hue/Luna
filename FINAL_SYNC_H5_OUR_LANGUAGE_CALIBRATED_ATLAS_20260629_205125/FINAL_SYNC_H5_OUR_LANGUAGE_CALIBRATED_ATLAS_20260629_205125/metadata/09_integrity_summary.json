@@ -1,0 +1,8 @@
+{
+  "name": "09_integrity_summary",
+  "title": "Integrity summary",
+  "source": "H5 + Our_Language contract",
+  "formula": "deterministic integrity checks and run summary",
+  "image_path": "/MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/09_integrity_summary.png",
+  "policy": "H5 authority + Our_Language deterministic human visual contract"
+}

@@ -1,0 +1,4 @@
+Geodesic curl velocity
+source: /n_4_geodesic_field
+formula: salience from curl; vector overlay from velocity
+image: /MATLAB Drive/modelTRAINING/FINAL_SYNC_H5_OUR_LANGUAGE_CALIBRATED_ATLAS_20260629_205125/images/06_geodesic_curl_velocity.png

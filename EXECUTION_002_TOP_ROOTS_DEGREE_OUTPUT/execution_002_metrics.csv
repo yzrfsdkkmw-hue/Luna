@@ -1,0 +1,13 @@
+metric,value
+roots_count,240
+edges_count,1832
+roots_xy_max_abs_diff,0
+connection_distance_max_abs_diff,5.2252841026279e-08
+connection_distance_mean_abs_diff,8.17417558202016e-09
+endpoint_match_max_error,0
+endpoint_match_mean_error,0
+mean_root_degree,15.2666666666667
+median_root_degree,13
+max_root_degree,40
+min_root_degree,0
+topN,10
