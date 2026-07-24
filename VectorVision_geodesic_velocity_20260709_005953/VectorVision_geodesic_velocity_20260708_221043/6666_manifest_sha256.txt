@@ -1,0 +1,4 @@
+PROJECT=project_geodesic_velocity_VectorVision_UNIFIED_FIXED
+H5_PATH=/MATLAB Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+H5_SHA256=f853d2d6c3829cecbecc655c67173aa68ce2d623b7aa41785333828589319d40
+OUT_DIR=/MATLAB Drive/modelTRAINING/VectorVision_geodesic_velocity_20260708_221043

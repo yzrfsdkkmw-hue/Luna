@@ -1,0 +1,18 @@
+{
+  "project": "project_geodesic_velocity_VectorVision_UNIFIED_FIXED",
+  "h5_path": "/MATLAB Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "h5_sha256": "f853d2d6c3829cecbecc655c67173aa68ce2d623b7aa41785333828589319d40",
+  "output_folder": "/MATLAB Drive/modelTRAINING/VectorVision_geodesic_velocity_20260708_221043",
+  "field_height": 1024,
+  "field_width": 1024,
+  "time_steps": 48,
+  "selected_dataset_count": 8,
+  "metric_mean": 0.52869700400748521,
+  "metric_std": 0.17271356755913589,
+  "velocity_magnitude_mean": 0.52869712415332337,
+  "velocity_magnitude_max": 1,
+  "final_scalar_mean": 0.65532461249470642,
+  "final_scalar_std": 0.18142770437521957,
+  "light_speed_status": "NO_H5_PHYSICAL_CALIBRATION",
+  "light_speed_conclusion": "RESULT: H5 field was computed, but c^2 comparison was not physically evaluated because dx_m and dt_s were not found inside the H5."
+}

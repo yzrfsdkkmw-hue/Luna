@@ -1,0 +1,15 @@
+{
+  "equation": "v_g^2 = metric(x,y) * ((Vx*dx_m/dt_s)^2 + (Vy*dx_m/dt_s)^2)",
+  "compare_to": "c^2",
+  "c_m_per_s": 2.99792458E+8,
+  "c_squared": 8.987551787368176E+16,
+  "min_significant_ratio": 10,
+  "min_support_fraction": 0.001,
+  "physical_calibration_found_in_h5": false,
+  "status": "NO_H5_PHYSICAL_CALIBRATION",
+  "dx_m": null,
+  "dt_s": null,
+  "dimensionless_vg2_max": 0.99999923701002569,
+  "dimensionless_vg2_p99": 0.89219671388328492,
+  "conclusion": "RESULT: H5 field was computed, but c^2 comparison was not physically evaluated because dx_m and dt_s were not found inside the H5."
+}
