@@ -1,0 +1,20 @@
+Quantization_of_Knowledge contact sheet map
+01 = I0 source RGB
+02 = IA display operator RGB
+03 = canonical integrated field I0
+04 = gradient magnitude
+05 = Laplacian
+06 = multiscale DoG energy
+07 = log FFT magnitude
+08 = optical energy field
+09 = qL cone field
+10 = qM cone field
+11 = qS cone field
+12 = mean photoreceptor voltage
+13 = retinal ON plus OFF
+14 = relay field
+15 = V1 oriented energy
+16 = master image
+number_of_cores = 96
+phase_order_final = 0.138321385
+integration_index_final = 1.62383859e-17
