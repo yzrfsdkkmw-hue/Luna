@@ -1,0 +1,14 @@
+category,name,dimensions,element_count
+canonical,fieldBasis,14,238
+tensor,originalTensor,[64 64 3 17],208896
+tensor,complementTensor,[64 64 3 17],208896
+tensor,overlapTensor,[64 64 17],69632
+tensor,knowledgeGapTensor,[64 64 17],69632
+tensor,knowledgeCompletionTensor,[64 64 5 17],348160
+tensor,completionPrimitiveTensor,[64 64 12],49152
+weight,topicEmbedding,[17 12],204
+weight,topicToSource,[12 14],168
+weight,sourceProjection,[17 14],238
+weight,pairCoupling,[17 3],51
+weight,pairRelation,[17 17],289
+weight,pairAdjacency,[34 34],1156

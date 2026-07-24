@@ -1,0 +1,36 @@
+category,name,dimensions,element_count,complex
+canonical_source,latticeModes,[12 240],2880,0
+canonical_source,roots2D,[2 240],480,0
+canonical_source,modularEta,[64 64 3],12288,0
+canonical_source,weylField,[64 64 5],20480,0
+canonical_source,compositeField,[64 64 5],20480,0
+canonical_source,geodesic,[64 64 3],12288,0
+canonical_source,defectDensity,[32 32],1024,0
+canonical_source,phaseStops,[6 1],6,0
+canonical_source,chamberAngles,[9 1],9,0
+tensor,extendedWaveFunction,[64 64 12],49152,1
+tensor,probabilityDensity,[64 64 12],49152,0
+tensor,phaseTransport,[64 64 12],49152,0
+tensor,stringModes,[64 64 12],49152,1
+tensor,worldsheet,[64 64 4 8],131072,0
+tensor,openString,[64 64 8],32768,0
+tensor,closedString,[64 64 8],32768,0
+tensor,compactDimension,[32 32 4],4096,0
+tensor,brane,[64 64 4],16384,0
+tensor,stringInteraction,[64 64 4],16384,0
+tensor,modeSpectrum,[12 240],2880,0
+tensor,tensionField,[64 64 12],49152,0
+tensor,dualityMapping,[16 16 4],1024,0
+tensor,humanSymbolCalibration,[10 10],100,0
+tensor,terminalChainAdjacency,[12 12],144,0
+tensor,terminalChainRanks,[12 1],12,0
+tensor,projectionMetrics,[8 6],48,0
+weight,taskProjector,[256 256],65536,0
+weight,complementProjector,[256 256],65536,0
+weight,hamiltonian,[16 16],256,0
+weight,measurementKernel,[10 16],160,0
+weight,humanSymbolCalibration,[10 10],100,0
+weight,stringModeEnergy,[12 1],12,0
+weight,stageKernel,[8 1],8,0
+weight,chainTransition,[12 12],144,0
+weight,terminalGateMask,[12 1],12,0

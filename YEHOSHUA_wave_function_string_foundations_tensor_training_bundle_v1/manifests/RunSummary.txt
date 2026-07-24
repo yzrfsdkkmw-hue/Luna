@@ -1,0 +1,19 @@
+YEHOSHUA WAVE FUNCTION AND STRING FOUNDATIONS V1
+subject=image_learning
+domain=wave_function_and_string_foundations
+rendered_text=false
+canonical_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+draft_sha256=4bf53764f91bccaaa715e42f8cea2a199325a2200385213b20465e7c1d8e02a5
+image_count=17
+tensor_count=17
+canonical_source_tensor_count=9
+weight_count=9
+terminal_process_is_dag=true
+full_graph_is_dag=false
+terminal_nilpotency_index=11
+eta_abrupt=0.327997900813
+eta_organized=0.677002234107
+no_amplification=true
+wave_norm_max_error=1.11022302463e-15
+h5_exported=true
+elapsed_seconds=8.110164

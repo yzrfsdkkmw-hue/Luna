@@ -1,0 +1,188 @@
+{
+  "version": "YEHOSHUA_string_theory_complementary_pairs_v3",
+  "subject": "image_learning",
+  "domain": "string_theory_complementary_visual_pairs",
+  "bundle_name": "wave_function_string_foundations_v1",
+  "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "canonical_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "existing_files_changed": 0,
+  "pair_count": 17,
+  "complementary_image_count": 17,
+  "paired_image_file_count": 34,
+  "rendered_text": false,
+  "primitive_names": [
+    "geometry",
+    "boundary",
+    "dynamics",
+    "symmetry",
+    "spectrum",
+    "quantization",
+    "topology",
+    "duality",
+    "constraint",
+    "interaction",
+    "flow",
+    "interpretation"
+  ],
+  "primitive_count": 12,
+  "topic_to_source_rank": 12,
+  "pair_adjacency_is_dag": true,
+  "all_finite": true,
+  "tensor_h5": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/paired_image_learning_v3/tensors/StringTheoryComplementaryPairsTensors.h5",
+  "tensor_mat": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/paired_image_learning_v3/tensors/StringTheoryComplementaryPairsTensors.mat",
+  "pairs": [
+    {
+      "pair_id": 1,
+      "original_representation": "String",
+      "complementary_representation": "QuantizedVibration",
+      "source_relative_path": "images/string_foundations/String.png",
+      "pair_folder": "pairs/String",
+      "knowledge_gap_relation": "String requires QuantizedVibration",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 2,
+      "original_representation": "OpenString",
+      "complementary_representation": "EndpointBoundaryConditions",
+      "source_relative_path": "images/string_foundations/OpenString.png",
+      "pair_folder": "pairs/OpenString",
+      "knowledge_gap_relation": "OpenString requires EndpointBoundaryConditions",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 3,
+      "original_representation": "ClosedString",
+      "complementary_representation": "PeriodicBoundaryConditions",
+      "source_relative_path": "images/string_foundations/ClosedString.png",
+      "pair_folder": "pairs/ClosedString",
+      "knowledge_gap_relation": "ClosedString requires PeriodicBoundaryConditions",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 4,
+      "original_representation": "StringTension",
+      "complementary_representation": "EnergyLengthScale",
+      "source_relative_path": "images/string_foundations/StringTension.png",
+      "pair_folder": "pairs/StringTension",
+      "knowledge_gap_relation": "StringTension requires EnergyLengthScale",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 5,
+      "original_representation": "ModeSpectrum",
+      "complementary_representation": "OscillatorQuantization",
+      "source_relative_path": "images/string_foundations/ModeSpectrum.png",
+      "pair_folder": "pairs/ModeSpectrum",
+      "knowledge_gap_relation": "ModeSpectrum requires OscillatorQuantization",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 6,
+      "original_representation": "Worldsheet",
+      "complementary_representation": "SpacetimeEmbedding",
+      "source_relative_path": "images/string_foundations/Worldsheet.png",
+      "pair_folder": "pairs/Worldsheet",
+      "knowledge_gap_relation": "Worldsheet requires SpacetimeEmbedding",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 7,
+      "original_representation": "Brane",
+      "complementary_representation": "OpenStringBoundary",
+      "source_relative_path": "images/string_foundations/Brane.png",
+      "pair_folder": "pairs/Brane",
+      "knowledge_gap_relation": "Brane requires OpenStringBoundary",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 8,
+      "original_representation": "StringInteraction",
+      "complementary_representation": "SplittingJoining",
+      "source_relative_path": "images/string_foundations/StringInteraction.png",
+      "pair_folder": "pairs/StringInteraction",
+      "knowledge_gap_relation": "StringInteraction requires SplittingJoining",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 9,
+      "original_representation": "CompactDimension",
+      "complementary_representation": "MomentumWinding",
+      "source_relative_path": "images/string_foundations/CompactDimension.png",
+      "pair_folder": "pairs/CompactDimension",
+      "knowledge_gap_relation": "CompactDimension requires MomentumWinding",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 10,
+      "original_representation": "DualityMapping",
+      "complementary_representation": "RadiusInversion",
+      "source_relative_path": "images/string_foundations/DualityMapping.png",
+      "pair_folder": "pairs/DualityMapping",
+      "knowledge_gap_relation": "DualityMapping requires RadiusInversion",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 11,
+      "original_representation": "WaveFunctionExtension",
+      "complementary_representation": "ComplexAmplitude",
+      "source_relative_path": "images/wave_function/WaveFunctionExtension.png",
+      "pair_folder": "pairs/WaveFunctionExtension",
+      "knowledge_gap_relation": "WaveFunctionExtension requires ComplexAmplitude",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 12,
+      "original_representation": "ProbabilityFlow",
+      "complementary_representation": "ProbabilityCurrent",
+      "source_relative_path": "images/wave_function/ProbabilityFlow.png",
+      "pair_folder": "pairs/ProbabilityFlow",
+      "knowledge_gap_relation": "ProbabilityFlow requires ProbabilityCurrent",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 13,
+      "original_representation": "PhaseTransport",
+      "complementary_representation": "PhaseCoherence",
+      "source_relative_path": "images/wave_function/PhaseTransport.png",
+      "pair_folder": "pairs/PhaseTransport",
+      "knowledge_gap_relation": "PhaseTransport requires PhaseCoherence",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 14,
+      "original_representation": "ModeSuperposition",
+      "complementary_representation": "InterferenceStructure",
+      "source_relative_path": "images/wave_function/ModeSuperposition.png",
+      "pair_folder": "pairs/ModeSuperposition",
+      "knowledge_gap_relation": "ModeSuperposition requires InterferenceStructure",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 15,
+      "original_representation": "HumanSymbolCalibration",
+      "complementary_representation": "SymbolMeaningBinding",
+      "source_relative_path": "images/terminal_system/HumanSymbolCalibration.png",
+      "pair_folder": "pairs/HumanSymbolCalibration",
+      "knowledge_gap_relation": "HumanSymbolCalibration requires SymbolMeaningBinding",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 16,
+      "original_representation": "TerminalChain",
+      "complementary_representation": "AcyclicDependency",
+      "source_relative_path": "images/terminal_system/TerminalChain.png",
+      "pair_folder": "pairs/TerminalChain",
+      "knowledge_gap_relation": "TerminalChain requires AcyclicDependency",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 17,
+      "original_representation": "ProjectionEfficiency",
+      "complementary_representation": "InformationRetention",
+      "source_relative_path": "images/terminal_system/ProjectionEfficiency.png",
+      "pair_folder": "pairs/ProjectionEfficiency",
+      "knowledge_gap_relation": "ProjectionEfficiency requires InformationRetention",
+      "rendered_text": false
+    }
+  ]
+}

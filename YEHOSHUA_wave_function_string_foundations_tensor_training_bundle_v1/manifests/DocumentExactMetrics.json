@@ -1,0 +1,51 @@
+{
+  "full_graph_declared_node_count": 43,
+  "full_graph_referenced_node_count": 52,
+  "full_graph_expanded_edge_count": 92,
+  "full_graph_duplicate_edge_count": 15,
+  "full_graph_undeclared_endpoint_count": 9,
+  "full_graph_undeclared_endpoints": [
+    "ρ_Σ",
+    "R_Φ",
+    "Φ_int",
+    "N_n",
+    "rho_K",
+    "N_notebook",
+    "Xi",
+    "L_cal",
+    "N_notebook_next"
+  ],
+  "full_graph_is_dag": false,
+  "full_graph_cycle_components": [
+    [
+      "z",
+      "ρ_B"
+    ]
+  ],
+  "terminal_process_node_count": 12,
+  "terminal_process_edge_count": 12,
+  "terminal_process_is_dag": true,
+  "terminal_rank_condition": true,
+  "terminal_longest_path_edges": 10,
+  "terminal_adjacency_nilpotency_index": 11,
+  "terminal_forbidden_back_path_count": 0,
+  "eta_abrupt_fraction": "1250/3811",
+  "eta_abrupt": 0.32799790081343477,
+  "eta_organized_fraction": "10000/14771",
+  "eta_organized": 0.67700223410737248,
+  "eta_absolute_change": 0.34900433329393771,
+  "eta_relative_change": 1.0640444113465573,
+  "nsr_reduction_fraction": 0.76713197969543145,
+  "linear_novelty_max_sensitivity": 0.72036044367108332,
+  "legacy_gain_parallel_symbol_count": 3,
+  "legacy_gain_orthogonal_symbol_count": 3,
+  "legacy_selective_amplification_phrase_count": 1,
+  "terminal_closure_numeric_gate_computable": false,
+  "terminal_closure_missing_inputs": [
+    "human response records r_0:M^H",
+    "terminal loss values",
+    "closure thresholds epsilon",
+    "eta_min",
+    "rho_max"
+  ]
+}

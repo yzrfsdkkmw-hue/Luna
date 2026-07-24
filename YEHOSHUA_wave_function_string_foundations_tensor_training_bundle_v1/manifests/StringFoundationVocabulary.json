@@ -1,0 +1,47 @@
+{
+  "terms": [
+    "string",
+    "open_string",
+    "closed_string",
+    "worldsheet",
+    "string_mode",
+    "string_tension",
+    "compact_dimension",
+    "brane",
+    "string_interaction",
+    "duality_mapping"
+  ],
+  "definitions": [
+    "one-dimensional extended object",
+    "string with two endpoints",
+    "loop-shaped string without endpoints",
+    "two-dimensional surface traced by string evolution",
+    "discrete oscillation pattern along a string",
+    "energy scale associated with string extension",
+    "spatial direction represented with compact periodic structure",
+    "extended surface supporting or constraining string endpoints",
+    "joining or splitting relation among string trajectories",
+    "mapping between two equivalent structural descriptions"
+  ],
+  "primitives": [
+    "point",
+    "line",
+    "loop",
+    "surface",
+    "boundary",
+    "node",
+    "bridge",
+    "oscillation",
+    "compact_cycle",
+    "dual_pair"
+  ],
+  "rank": 10,
+  "incidence_shape": [
+    10,
+    10
+  ],
+  "calibration_shape": [
+    10,
+    10
+  ]
+}

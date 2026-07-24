@@ -1,0 +1,9 @@
+item,value,status
+terminal_process_is_dag,1,valid
+full_graph_is_dag,0,scope_distinction_required
+full_graph_duplicate_edge_count,15,review
+full_graph_undeclared_endpoint_count,9,review
+legacy_gain_parallel_symbol_count,3,legacy_text_present
+legacy_gain_orthogonal_symbol_count,3,legacy_text_present
+legacy_selective_amplification_phrase_count,1,legacy_text_present
+terminal_closure_numeric_gate_computable,0,missing_calibration_values

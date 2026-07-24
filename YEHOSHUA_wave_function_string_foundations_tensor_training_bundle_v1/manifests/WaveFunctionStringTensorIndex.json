@@ -1,0 +1,159 @@
+{
+  "version": "YEHOSHUA_wave_function_string_foundations_v1",
+  "subject": "image_learning",
+  "domain": "wave_function_and_string_foundations",
+  "rendered_text": false,
+  "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "canonical_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "draft_json": "/Users/yehoshua/Downloads/This_is_a_quantization_of_knowledge_strictly_acyclic_no_amplification_terminal_chain_draft_v3.json",
+  "draft_sha256": "4bf53764f91bccaaa715e42f8cea2a199325a2200385213b20465e7c1d8e02a5",
+  "tensor_names": [
+    "extendedWaveFunction",
+    "probabilityDensity",
+    "phaseTransport",
+    "stringModes",
+    "worldsheet",
+    "openString",
+    "closedString",
+    "compactDimension",
+    "brane",
+    "stringInteraction",
+    "modeSpectrum",
+    "tensionField",
+    "dualityMapping",
+    "humanSymbolCalibration",
+    "terminalChainAdjacency",
+    "terminalChainRanks",
+    "projectionMetrics"
+  ],
+  "canonical_source_tensor_names": [
+    "latticeModes",
+    "roots2D",
+    "modularEta",
+    "weylField",
+    "compositeField",
+    "geodesic",
+    "defectDensity",
+    "phaseStops",
+    "chamberAngles"
+  ],
+  "weight_names": [
+    "taskProjector",
+    "complementProjector",
+    "hamiltonian",
+    "measurementKernel",
+    "humanSymbolCalibration",
+    "stringModeEnergy",
+    "stageKernel",
+    "chainTransition",
+    "terminalGateMask"
+  ],
+  "images": [
+    {
+      "representation": "WaveFunctionExtension",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/wave_function/WaveFunctionExtension.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "PhaseTransport",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/wave_function/PhaseTransport.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "ProbabilityFlow",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/wave_function/ProbabilityFlow.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "ModeSuperposition",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/wave_function/ModeSuperposition.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "String",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/String.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "OpenString",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/OpenString.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "ClosedString",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/ClosedString.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "Worldsheet",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/Worldsheet.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "CompactDimension",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/CompactDimension.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "Brane",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/Brane.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "StringInteraction",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/StringInteraction.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "ModeSpectrum",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/ModeSpectrum.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "StringTension",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/StringTension.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "DualityMapping",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/string_foundations/DualityMapping.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "HumanSymbolCalibration",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/terminal_system/HumanSymbolCalibration.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "TerminalChain",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/terminal_system/TerminalChain.png",
+      "rendered_text": false
+    },
+    {
+      "representation": "ProjectionEfficiency",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_wave_function_string_foundations_tensor_training_bundle_v1/images/terminal_system/ProjectionEfficiency.png",
+      "rendered_text": false
+    }
+  ],
+  "validation": {
+    "wave_norm_max_error": 1.1102230246251565E-15,
+    "probability_sum_max_error": 1.1102230246251565E-15,
+    "projector_idempotence_error": 1.5112133881605986E-15,
+    "complement_idempotence_error": 6.4671932706446164E-15,
+    "cross_projector_error": 1.3592306695895404E-15,
+    "projection_orthogonality_max_error": 5.414592385566408E-14,
+    "projection_reconstruction_max_error": 4.1066318636175574E-15,
+    "projection_energy_identity_max_error": 1.1748935158095719E-13,
+    "task_operator_norm": 1.0000000000000002,
+    "complement_operator_norm": 1.0000000000000007,
+    "no_amplification": true,
+    "terminal_process_is_dag": true,
+    "full_graph_is_dag": false,
+    "terminal_forbidden_back_path_count": 0,
+    "vocabulary_rank": 10,
+    "calibration_row_sum_max_error": 2.2204460492503131E-16,
+    "all_finite": true
+  },
+  "h5_exported": true,
+  "h5_message": "complete"
+}
