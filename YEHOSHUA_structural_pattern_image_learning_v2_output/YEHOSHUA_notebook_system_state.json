@@ -1,0 +1,328 @@
+{
+  "version": "YEHOSHUA_structural_pattern_image_learning_v2",
+  "subject": "image_learning",
+  "rendered_text": false,
+  "notebook_is_system": true,
+  "node_count": 12,
+  "relation_count": 16,
+  "nodes": [
+    {
+      "id": 1,
+      "role": "anchor",
+      "x": 51,
+      "y": 276.14945633408047,
+      "local_energy": 0.31870302557945251,
+      "active_step": 1
+    },
+    {
+      "id": 2,
+      "role": "boundary_open",
+      "x": 88,
+      "y": 288.5585747398647,
+      "local_energy": 0.33788731694221497,
+      "active_step": 2
+    },
+    {
+      "id": 3,
+      "role": "unit",
+      "x": 126,
+      "y": 261.35961504045036,
+      "local_energy": 0.32355177402496338,
+      "active_step": 3
+    },
+    {
+      "id": 4,
+      "role": "relation",
+      "x": 163,
+      "y": 242.804566693594,
+      "local_energy": 0.328277051448822,
+      "active_step": 4
+    },
+    {
+      "id": 5,
+      "role": "unit",
+      "x": 200,
+      "y": 250.54698193346547,
+      "local_energy": 1,
+      "active_step": 5
+    },
+    {
+      "id": 6,
+      "role": "boundary_close",
+      "x": 237,
+      "y": 257.69279995657735,
+      "local_energy": 0.84470087289810181,
+      "active_step": 6
+    },
+    {
+      "id": 7,
+      "role": "transition",
+      "x": 275,
+      "y": 263.40567063461003,
+      "local_energy": 0.78124666213989258,
+      "active_step": 7
+    },
+    {
+      "id": 8,
+      "role": "unit",
+      "x": 312,
+      "y": 258.14929142074129,
+      "local_energy": 0.618548572063446,
+      "active_step": 8
+    },
+    {
+      "id": 9,
+      "role": "relation",
+      "x": 349,
+      "y": 250.21959916090879,
+      "local_energy": 0.48193779587745667,
+      "active_step": 9
+    },
+    {
+      "id": 10,
+      "role": "unit",
+      "x": 386,
+      "y": 251.46490195584096,
+      "local_energy": 0.32210704684257507,
+      "active_step": 10
+    },
+    {
+      "id": 11,
+      "role": "state",
+      "x": 424,
+      "y": 242.14610555095283,
+      "local_energy": 0.49580785632133484,
+      "active_step": 11
+    },
+    {
+      "id": 12,
+      "role": "closure",
+      "x": 461,
+      "y": 256.43874014324052,
+      "local_energy": 0.34748783707618713,
+      "active_step": 12
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 2,
+      "kind": "sequence",
+      "active_step": 2
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 3,
+      "kind": "sequence",
+      "active_step": 3
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 4,
+      "kind": "sequence",
+      "active_step": 4
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 5,
+      "kind": "sequence",
+      "active_step": 5
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 6,
+      "kind": "sequence",
+      "active_step": 6
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 7,
+      "kind": "sequence",
+      "active_step": 7
+    },
+    {
+      "id": 7,
+      "source": 7,
+      "target": 8,
+      "kind": "sequence",
+      "active_step": 8
+    },
+    {
+      "id": 8,
+      "source": 8,
+      "target": 9,
+      "kind": "sequence",
+      "active_step": 9
+    },
+    {
+      "id": 9,
+      "source": 9,
+      "target": 10,
+      "kind": "sequence",
+      "active_step": 10
+    },
+    {
+      "id": 10,
+      "source": 10,
+      "target": 11,
+      "kind": "sequence",
+      "active_step": 11
+    },
+    {
+      "id": 11,
+      "source": 11,
+      "target": 12,
+      "kind": "sequence",
+      "active_step": 12
+    },
+    {
+      "id": 12,
+      "source": 1,
+      "target": 3,
+      "kind": "dependency",
+      "active_step": 3
+    },
+    {
+      "id": 13,
+      "source": 1,
+      "target": 5,
+      "kind": "dependency",
+      "active_step": 5
+    },
+    {
+      "id": 14,
+      "source": 3,
+      "target": 8,
+      "kind": "dependency",
+      "active_step": 8
+    },
+    {
+      "id": 15,
+      "source": 5,
+      "target": 10,
+      "kind": "dependency",
+      "active_step": 10
+    },
+    {
+      "id": 16,
+      "source": 6,
+      "target": 11,
+      "kind": "dependency",
+      "active_step": 11
+    }
+  ],
+  "frame_metrics": [
+    {
+      "step": 1,
+      "active_nodes": 1,
+      "active_edges": 0,
+      "structure_occupancy": 0.00064849853515625,
+      "mean_field_coupling": 0.300483018,
+      "mean_local_response": 0.822199583
+    },
+    {
+      "step": 2,
+      "active_nodes": 2,
+      "active_edges": 1,
+      "structure_occupancy": 0.00153350830078125,
+      "mean_field_coupling": 0.325262308,
+      "mean_local_response": 1
+    },
+    {
+      "step": 3,
+      "active_nodes": 3,
+      "active_edges": 3,
+      "structure_occupancy": 0.004581451416015625,
+      "mean_field_coupling": 0.338546574,
+      "mean_local_response": 1
+    },
+    {
+      "step": 4,
+      "active_nodes": 4,
+      "active_edges": 4,
+      "structure_occupancy": 0.005519866943359375,
+      "mean_field_coupling": 0.333307892,
+      "mean_local_response": 1
+    },
+    {
+      "step": 5,
+      "active_nodes": 5,
+      "active_edges": 6,
+      "structure_occupancy": 0.011775970458984375,
+      "mean_field_coupling": 0.425283819,
+      "mean_local_response": 0.977703929
+    },
+    {
+      "step": 6,
+      "active_nodes": 6,
+      "active_edges": 7,
+      "structure_occupancy": 0.0127105712890625,
+      "mean_field_coupling": 0.477743477,
+      "mean_local_response": 0.967966
+    },
+    {
+      "step": 7,
+      "active_nodes": 7,
+      "active_edges": 8,
+      "structure_occupancy": 0.01348114013671875,
+      "mean_field_coupling": 0.508825,
+      "mean_local_response": 0.958758771
+    },
+    {
+      "step": 8,
+      "active_nodes": 8,
+      "active_edges": 10,
+      "structure_occupancy": 0.0192108154296875,
+      "mean_field_coupling": 0.57696259,
+      "mean_local_response": 0.909498215
+    },
+    {
+      "step": 9,
+      "active_nodes": 9,
+      "active_edges": 11,
+      "structure_occupancy": 0.020355224609375,
+      "mean_field_coupling": 0.583589137,
+      "mean_local_response": 0.90233928
+    },
+    {
+      "step": 10,
+      "active_nodes": 10,
+      "active_edges": 13,
+      "structure_occupancy": 0.026515960693359375,
+      "mean_field_coupling": 0.595994294,
+      "mean_local_response": 0.863080502
+    },
+    {
+      "step": 11,
+      "active_nodes": 11,
+      "active_edges": 15,
+      "structure_occupancy": 0.0322265625,
+      "mean_field_coupling": 0.59072125,
+      "mean_local_response": 0.836209953
+    },
+    {
+      "step": 12,
+      "active_nodes": 12,
+      "active_edges": 16,
+      "structure_occupancy": 0.033420562744140625,
+      "mean_field_coupling": 0.582665,
+      "mean_local_response": 0.831964254
+    }
+  ],
+  "reference_calibration": {
+    "mask_occupancy": 0.018035888671875,
+    "motion_occupancy": 0.2992095947265625,
+    "mean_motion_on_mask": 0.761269689,
+    "reference_width": 256,
+    "reference_height": 256
+  },
+  "carrier_confidence": 7.217763298524825,
+  "source_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "generated_at": "17-Jul-2026 17:49:22"
+}
