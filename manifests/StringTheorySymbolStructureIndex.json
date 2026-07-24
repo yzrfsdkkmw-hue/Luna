@@ -1,0 +1,243 @@
+{
+  "version": "YEHOSHUA_string_theory_symbol_structure_v2",
+  "subject": "image_learning",
+  "domain": "string_theory_human_symbol_structure",
+  "rendered_text": false,
+  "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "canonical_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "vocabulary_source": "/Users/yehoshua/.codex/attachments/cbdbaaf6-55a4-4f82-924c-0607fea23603/pasted-text.txt",
+  "vocabulary_sha256": "15a5dab0afff7fdf94b0b1e33defc7bbe790ad00cb133f7194f0d6cf17fdce71",
+  "concept_count": 20,
+  "primitive_count": 12,
+  "canonical_tensor_names": [
+    "connectionTensor",
+    "latticeCoordinates",
+    "streamlineTensor",
+    "defectTopology",
+    "geodesicTrajectories",
+    "chamberField",
+    "fuchsianTiling",
+    "ginibreField",
+    "spectralPalette"
+  ],
+  "tensor_names": [
+    "primitiveTensor",
+    "conceptTensor",
+    "symbolField",
+    "humanSymbolCalibration",
+    "notationEmbedding",
+    "conceptRelations",
+    "relationTensor",
+    "conceptToSource",
+    "sourceStatistics",
+    "conceptComplexity",
+    "semanticSequenceAdjacency"
+  ],
+  "weight_names": [
+    "primitiveIncidence",
+    "humanSymbolCalibration",
+    "priorContinuity",
+    "notationEmbedding",
+    "conceptRelations",
+    "conceptToSource",
+    "sourceReliability",
+    "sequenceTransition",
+    "spectralPalette"
+  ],
+  "images": [
+    {
+      "representation": "Worldsheet",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/Worldsheet.png",
+      "source": "Worldsheet",
+      "rendered_text": false
+    },
+    {
+      "representation": "EmbeddingMap",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/EmbeddingMap.png",
+      "source": "Embedding Map",
+      "rendered_text": false
+    },
+    {
+      "representation": "ReggeSlope",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/ReggeSlope.png",
+      "source": "Regge Slope and String Length",
+      "rendered_text": false
+    },
+    {
+      "representation": "StringTension",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/StringTension.png",
+      "source": "String Tension",
+      "rendered_text": false
+    },
+    {
+      "representation": "InducedMetric",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/InducedMetric.png",
+      "source": "Induced Metric",
+      "rendered_text": false
+    },
+    {
+      "representation": "NambuGotoAction",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/NambuGotoAction.png",
+      "source": "Nambu-Goto Action",
+      "rendered_text": false
+    },
+    {
+      "representation": "PolyakovAction",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/PolyakovAction.png",
+      "source": "Polyakov Action",
+      "rendered_text": false
+    },
+    {
+      "representation": "WeylSymmetry",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/WeylSymmetry.png",
+      "source": "Weyl Symmetry",
+      "rendered_text": false
+    },
+    {
+      "representation": "WorldsheetStressEnergy",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/WorldsheetStressEnergy.png",
+      "source": "Worldsheet Stress-Energy Tensor",
+      "rendered_text": false
+    },
+    {
+      "representation": "VirasoroAlgebra",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/VirasoroAlgebra.png",
+      "source": "Virasoro Algebra",
+      "rendered_text": false
+    },
+    {
+      "representation": "OscillatorModes",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/OscillatorModes.png",
+      "source": "String Oscillator Modes",
+      "rendered_text": false
+    },
+    {
+      "representation": "LevelMatching",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/LevelMatching.png",
+      "source": "Level Matching and Mass-Shell Condition",
+      "rendered_text": false
+    },
+    {
+      "representation": "CriticalDimension",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/CriticalDimension.png",
+      "source": "Critical Dimension",
+      "rendered_text": false
+    },
+    {
+      "representation": "WorldsheetSupersymmetry",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/WorldsheetSupersymmetry.png",
+      "source": "Worldsheet Supersymmetry",
+      "rendered_text": false
+    },
+    {
+      "representation": "NeveuSchwarzRamondSectors",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/NeveuSchwarzRamondSectors.png",
+      "source": "Neveu-Schwarz and Ramond Sectors",
+      "rendered_text": false
+    },
+    {
+      "representation": "GSOProjection",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/GSOProjection.png",
+      "source": "GSO Projection",
+      "rendered_text": false
+    },
+    {
+      "representation": "BRSTCohomology",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/BRSTCohomology.png",
+      "source": "BRST Quantization and Cohomology",
+      "rendered_text": false
+    },
+    {
+      "representation": "CalabiYauCompactification",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/CalabiYauCompactification.png",
+      "source": "Compactification and Calabi-Yau Manifolds",
+      "rendered_text": false
+    },
+    {
+      "representation": "TDuality",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/TDuality.png",
+      "source": "Momentum, Winding and T-Duality",
+      "rendered_text": false
+    },
+    {
+      "representation": "DBranes",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/concepts/DBranes.png",
+      "source": "D-branes",
+      "rendered_text": false
+    },
+    {
+      "representation": "ConnectionGraph",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/ConnectionGraph.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "StreamlineField",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/StreamlineField.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "DefectTopology",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/DefectTopology.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "GeodesicTrajectories",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/GeodesicTrajectories.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "ChamberField",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/ChamberField.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "FuchsianTiling",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/FuchsianTiling.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "GinibreField",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/GinibreField.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "SpectralPalette",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/canonical_sources/SpectralPalette.png",
+      "source": "canonical_h5",
+      "rendered_text": false
+    },
+    {
+      "representation": "HumanNotationCalibration",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/symbol_system/HumanNotationCalibration.png",
+      "source": "twenty_concepts_by_twelve_primitives",
+      "rendered_text": false
+    },
+    {
+      "representation": "ConceptRelations",
+      "file": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/images/symbol_system/ConceptRelations.png",
+      "source": "structural_similarity",
+      "rendered_text": false
+    }
+  ],
+  "validation": {
+    "vocabulary_item_count": 20,
+    "incidence_rank": 12,
+    "calibration_row_sum_max_error": 2.2204460492503131E-16,
+    "relation_symmetry_error": 0,
+    "relation_diagonal_max": 0,
+    "relation_spectral_radius": 0.99999999999999933,
+    "semantic_sequence_is_dag": true,
+    "minimum_concept_occupancy": 0.049560546875,
+    "canonical_tensor_count": 9,
+    "all_finite": true
+  },
+  "h5_exported": true,
+  "h5_message": "complete"
+}

@@ -1,0 +1,21 @@
+id,term_he,term_en,symbol,active_primitive_count
+1,יריעת-העולם,Worldsheet,"Σ; ξ^a=(τ,σ), a∈{0,1}",1
+2,העתקת השיכון,Embedding Map,"X^μ:Σ→M; X^μ(τ,σ)",2
+3,פרמטר רג'ה וקנה-מידת המיתר,Regge Slope and String Length,α'; ℓ_s=√α',3
+4,מתיחות המיתר,String Tension,T_s=1/(2πα'),4
+5,המטריקה המושרית,Induced Metric,γ_ab=G_μν(X)∂*aX^μ∂*bX^ν,5
+6,פעולת נמבו-גוטו,Nambu-Goto Action,S_NG=-T_s∫*Σd²ξ√(-detγ_ab),6
+7,פעולת פוליאקוב,Polyakov Action,S_P=-(1/(4πα'))∫d²ξ√(-h)h^abG_μν∂*aX^μ∂*bX^ν,7
+8,סימטריית וייל,Weyl Symmetry,h_ab(ξ)→e^{2ω(ξ)}h_ab(ξ),8
+9,טנזור האנרגיה-תנע של יריעת-העולם,Worldsheet Stress-Energy Tensor,T_ab=-(4π/√(-h))δS/δh^ab; T_ab=0,9
+10,אלגברת וירסורו,Virasoro Algebra,"[L_m,L_n]=(m-n)L*{m+n}+(c/12)(m³-m)δ*{m+n,0}",10
+11,אופני התנודה של המיתר,String Oscillator Modes,α_n^μ; α̃_n^μ,11
+12,התאמת רמות ותנאי המסה,Level Matching and Mass-Shell Condition,N=Ñ; M²∝(N-a)/α',12
+13,הממד הקריטי,Critical Dimension,D_crit=26 bosonic; D_crit=10 superstring,3
+14,סופר-סימטריה על יריעת-העולם,Worldsheet Supersymmetry,"X^μ(ξ), ψ^μ(ξ); N=(1,1)",3
+15,מגזרי נבו-שוורץ ורמון,Neveu-Schwarz and Ramond Sectors,ψ^μ(σ+2π)=-ψ^μ(σ) [NS]; ψ^μ(σ+2π)=+ψ^μ(σ) [R],3
+16,הטלת GSO,GSO Projection,P_GSO=(1/2)(1±(-1)^F),3
+17,קוונטיזציית BRST וקוהומולוגיה,BRST Quantization and Cohomology,Q_B²=0; H_phys=ker(Q_B)/im(Q_B),3
+18,קומפקטיפיקציה ויריעות קלבי-יאו,Compactification and Calabi-Yau Manifolds,"M_10=M_3,1×CY_3; h^{1,1},h^{2,1}",3
+19,"תנע, ליפוף ודואליות T","Momentum, Winding and T-Duality",p_KK=n/R; L_wind∝wR; R↔α'/R; n↔w,3
+20,ממברנות דיריכלה,D-branes,D p; W*{p+1}; ∂*σX^a=0; δX^i=0; μ_p∫*{W*{p+1}}C*{p+1},3

@@ -1,0 +1,198 @@
+{
+  "document": "string_theory_foundational_concepts_v1",
+  "language": "he",
+  "encoding": "UTF-8",
+  "schema": [
+    "id",
+    "term_he",
+    "term_en",
+    "symbol",
+    "definition",
+    "relation"
+  ],
+  "items": [
+    {
+      "id": 1,
+      "term_he": "יריעת-העולם",
+      "term_en": "Worldsheet",
+      "symbol": "Σ; ξ^a=(τ,σ), a∈{0,1}",
+      "definition": "משטח דו-ממדי שהמיתר פורש במהלך תנועתו במרחב-זמן.",
+      "relation": "domain of X^μ:Σ→M"
+    },
+    {
+      "id": 2,
+      "term_he": "העתקת השיכון",
+      "term_en": "Embedding Map",
+      "symbol": "X^μ:Σ→M; X^μ(τ,σ)",
+      "definition": "ממפה כל נקודה ביריעת-העולם למיקומה במרחב-הזמן.",
+      "relation": "induces γ_ab from G_μν"
+    },
+    {
+      "id": 3,
+      "term_he": "פרמטר רג'ה וקנה-מידת המיתר",
+      "term_en": "Regge Slope and String Length",
+      "symbol": "α'; ℓ_s=√α'",
+      "definition": "קובע את קנה-המידה האופייני של המיתר ואת הקשר בין מסה לרמת עירור.",
+      "relation": "T_s=(2πα')^-1"
+    },
+    {
+      "id": 4,
+      "term_he": "מתיחות המיתר",
+      "term_en": "String Tension",
+      "symbol": "T_s=1/(2πα')",
+      "definition": "אנרגיית המיתר ליחידת אורך.",
+      "relation": "inverse to α'"
+    },
+    {
+      "id": 5,
+      "term_he": "המטריקה המושרית",
+      "term_en": "Induced Metric",
+      "symbol": "γ_ab=G_μν(X)∂*aX^μ∂*bX^ν",
+      "definition": "המטריקה על יריעת-העולם הנגזרת ממטריקת מרחב-הזמן.",
+      "relation": "used in S_NG"
+    },
+    {
+      "id": 6,
+      "term_he": "פעולת נמבו-גוטו",
+      "term_en": "Nambu-Goto Action",
+      "symbol": "S_NG=-T_s∫*Σd²ξ√(-detγ_ab)",
+      "definition": "פעולה השווה למתיחות המיתר כפול שטח יריעת-העולם.",
+      "relation": "classically equivalent to S_P"
+    },
+    {
+      "id": 7,
+      "term_he": "פעולת פוליאקוב",
+      "term_en": "Polyakov Action",
+      "symbol": "S_P=-(1/(4πα'))∫d²ξ√(-h)h^abG_μν∂*aX^μ∂*bX^ν",
+      "definition": "ניסוח של דינמיקת המיתר באמצעות מטריקת יריעת-עולם עצמאית h_ab.",
+      "relation": "supports conformal and Weyl analysis"
+    },
+    {
+      "id": 8,
+      "term_he": "סימטריית וייל",
+      "term_en": "Weyl Symmetry",
+      "symbol": "h_ab(ξ)→e^{2ω(ξ)}h_ab(ξ)",
+      "definition": "שינוי מקומי של קנה-המידה של מטריקת יריעת-העולם.",
+      "relation": "requires vanishing Weyl anomaly quantum mechanically"
+    },
+    {
+      "id": 9,
+      "term_he": "טנזור האנרגיה-תנע של יריעת-העולם",
+      "term_en": "Worldsheet Stress-Energy Tensor",
+      "symbol": "T_ab=-(4π/√(-h))δS/δh^ab; T_ab=0",
+      "definition": "מתאר זרמי אנרגיה ותנע על יריעת-העולם ומייצר אילוצים.",
+      "relation": "equivalent to Virasoro constraints"
+    },
+    {
+      "id": 10,
+      "term_he": "אלגברת וירסורו",
+      "term_en": "Virasoro Algebra",
+      "symbol": "[L_m,L_n]=(m-n)L*{m+n}+(c/12)(m³-m)δ*{m+n,0}",
+      "definition": "האלגברה הקוונטית של טרנספורמציות קונפורמיות דו-ממדיות.",
+      "relation": "central charge c controls conformal anomaly"
+    },
+    {
+      "id": 11,
+      "term_he": "אופני התנודה של המיתר",
+      "term_en": "String Oscillator Modes",
+      "symbol": "α_n^μ; α̃_n^μ",
+      "definition": "אופרטורים המתארים עירורים בדידים של המיתר; במיתר סגור קיימים אופנים שמאליים וימניים.",
+      "relation": "construct string-state Fock space"
+    },
+    {
+      "id": 12,
+      "term_he": "התאמת רמות ותנאי המסה",
+      "term_en": "Level Matching and Mass-Shell Condition",
+      "symbol": "N=Ñ; M²∝(N-a)/α'",
+      "definition": "אילוצים המקשרים בין רמות העירור לבין מסת מצב המיתר.",
+      "relation": "closed strings require left-right matching"
+    },
+    {
+      "id": 13,
+      "term_he": "הממד הקריטי",
+      "term_en": "Critical Dimension",
+      "symbol": "D_crit=26 bosonic; D_crit=10 superstring",
+      "definition": "מספר ממדי מרחב-הזמן שבו האנומליה הקונפורמית הכוללת מתבטלת.",
+      "relation": "determined by total central charge"
+    },
+    {
+      "id": 14,
+      "term_he": "סופר-סימטריה על יריעת-העולם",
+      "term_en": "Worldsheet Supersymmetry",
+      "symbol": "X^μ(ξ), ψ^μ(ξ); N=(1,1)",
+      "definition": "סימטריה המחברת שדות בוזוניים X^μ לשדות פרמיוניים ψ^μ על יריעת-העולם.",
+      "relation": "basis of RNS superstring"
+    },
+    {
+      "id": 15,
+      "term_he": "מגזרי נבו-שוורץ ורמון",
+      "term_en": "Neveu-Schwarz and Ramond Sectors",
+      "symbol": "ψ^μ(σ+2π)=-ψ^μ(σ) [NS]; ψ^μ(σ+2π)=+ψ^μ(σ) [R]",
+      "definition": "שני תנאי שפה אפשריים לפרמיוני יריעת-העולם.",
+      "relation": "NS commonly yields spacetime bosons; R commonly yields spacetime fermions"
+    },
+    {
+      "id": 16,
+      "term_he": "הטלת GSO",
+      "term_en": "GSO Projection",
+      "symbol": "P_GSO=(1/2)(1±(-1)^F)",
+      "definition": "הטלה המסירה מצבים מסוימים לפי זוגיות מספר הפרמיונים.",
+      "relation": "supports spacetime supersymmetry and removes inconsistent states"
+    },
+    {
+      "id": 17,
+      "term_he": "קוונטיזציית BRST וקוהומולוגיה",
+      "term_en": "BRST Quantization and Cohomology",
+      "symbol": "Q_B²=0; H_phys=ker(Q_B)/im(Q_B)",
+      "definition": "שיטה להגדרת מצבים פיזיקליים תוך טיפול סימטרי בדרגות חופש כיול ורוחות.",
+      "relation": "physical states are BRST cohomology classes"
+    },
+    {
+      "id": 18,
+      "term_he": "קומפקטיפיקציה ויריעות קלבי-יאו",
+      "term_en": "Compactification and Calabi-Yau Manifolds",
+      "symbol": "M_10=M_3,1×CY_3; h^{1,1},h^{2,1}",
+      "definition": "קיפול ממדים נוספים למרחב פנימי קומפקטי; מספרי הודג' מתארים מחלקות עיוותים טופולוגיות וגאומטריות.",
+      "relation": "maps higher-dimensional string theory to lower-dimensional effective physics"
+    },
+    {
+      "id": 19,
+      "term_he": "תנע, ליפוף ודואליות T",
+      "term_en": "Momentum, Winding and T-Duality",
+      "symbol": "p_KK=n/R; L_wind∝wR; R↔α'/R; n↔w",
+      "definition": "מיתר בממד מעגלי נושא תנע בדיד ומספר ליפוף; דואליות T מחליפה בין השניים.",
+      "relation": "connects physically equivalent compactifications"
+    },
+    {
+      "id": 20,
+      "term_he": "ממברנות דיריכלה",
+      "term_en": "D-branes",
+      "symbol": "D p; W*{p+1}; ∂*σX^a=0; δX^i=0; μ_p∫*{W*{p+1}}C*{p+1}",
+      "definition": "עצמים בעלי p ממדים מרחביים שעליהם יכולים להסתיים מיתרים פתוחים ושיכולים לשאת מטעני רמון-רמון.",
+      "relation": "open-string endpoints generate fields on brane worldvolume"
+    }
+  ],
+  "primitive_names": [
+    "point",
+    "line",
+    "loop",
+    "surface",
+    "map",
+    "scale",
+    "metric",
+    "action",
+    "symmetry",
+    "constraint",
+    "mode",
+    "boundary"
+  ],
+  "incidence_rank": 12,
+  "incidence_shape": [
+    20,
+    12
+  ],
+  "calibration_shape": [
+    20,
+    12
+  ]
+}

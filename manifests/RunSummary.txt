@@ -1,0 +1,18 @@
+YEHOSHUA STRING THEORY SYMBOL STRUCTURE V2
+subject=image_learning
+domain=string_theory_human_symbol_structure
+rendered_text=false
+canonical_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+vocabulary_sha256=15a5dab0afff7fdf94b0b1e33defc7bbe790ad00cb133f7194f0d6cf17fdce71
+concept_count=20
+primitive_count=12
+incidence_rank=12
+image_count=30
+canonical_tensor_count=9
+training_tensor_count=11
+weight_count=9
+calibration_row_sum_max_error=2.22044604925e-16
+relation_spectral_radius=1
+semantic_sequence_is_dag=true
+h5_exported=true
+elapsed_seconds=2.786195

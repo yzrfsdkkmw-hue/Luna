@@ -1,0 +1,30 @@
+category,name,dimensions,element_count,complex
+canonical_source,connectionTensor,[1832 5],9160,0
+canonical_source,latticeCoordinates,[240 2],480,0
+canonical_source,streamlineTensor,[64 64 3],12288,0
+canonical_source,defectTopology,[64 64 3],12288,0
+canonical_source,geodesicTrajectories,[64 64 3],12288,0
+canonical_source,chamberField,[64 64 3],12288,0
+canonical_source,fuchsianTiling,[64 64 5],20480,0
+canonical_source,ginibreField,[64 64 3],12288,0
+canonical_source,spectralPalette,[15 8],120,0
+tensor,primitiveTensor,[64 64 12],49152,0
+tensor,conceptTensor,[64 64 20],81920,0
+tensor,symbolField,[64 64 20],81920,1
+tensor,humanSymbolCalibration,[20 12],240,0
+tensor,notationEmbedding,[20 12],240,1
+tensor,conceptRelations,[20 20],400,0
+tensor,relationTensor,[20 20 3],1200,0
+tensor,conceptToSource,[20 9],180,0
+tensor,sourceStatistics,[9 1],9,0
+tensor,conceptComplexity,[20 2],40,0
+tensor,semanticSequenceAdjacency,[20 20],400,0
+weight,primitiveIncidence,[20 12],240,0
+weight,humanSymbolCalibration,[20 12],240,0
+weight,priorContinuity,[20 12],240,0
+weight,notationEmbedding,[20 12],240,1
+weight,conceptRelations,[20 20],400,0
+weight,conceptToSource,[20 9],180,0
+weight,sourceReliability,[9 1],9,0
+weight,sequenceTransition,[20 20],400,0
+weight,spectralPalette,[15 8],120,0
