@@ -1,0 +1,34 @@
+symbol_index,token,human_symbol,visual_role,construction,mask_file,sha256
+1,I,I,field/sample identity,manual line/arc geometry; no text overlay,02_symbol_dictionary/01_i.png,e51483b29b3f5a6ec71d033d3f3b0c11c2eb042454bf6b914e41e439939d18d3
+2,0,0,source index,manual line/arc geometry; no text overlay,02_symbol_dictionary/02_0.png,f1747e05e525959286f8e52e2c6987fb278ba4365723a94a64a6b2d1e5ee316e
+3,A,A,display transform state,manual line/arc geometry; no text overlay,02_symbol_dictionary/03_a.png,35578b71aae0504aa5a9d3338bca988d17abb8c825284c630fcc92d62e9ada0d
+4,=,=,relation/equivalence,manual line/arc geometry; no text overlay,02_symbol_dictionary/04__.png,b9eaa4fe1e37177a7acf24bd819e0a7bc1620a6d310e4f2064165ebd2f715ffe
+5,T,T,transform operator,manual line/arc geometry; no text overlay,02_symbol_dictionary/05_t.png,2fdf43c03d71f18da745a8942d9560d5e39d3bc1aa75dfda75f15ce9d5fec913
+6,G,G,multiscale kernel,manual line/arc geometry; no text overlay,02_symbol_dictionary/06_g.png,a91e3c115b4d00ed5406666407c02d7a4dbdb12fb36b54ecbd739ae424821595
+7,sigma,sigma,scale parameter,manual line/arc geometry; no text overlay,02_symbol_dictionary/07_sigma.png,84e4ef6bebc47bb96749831d07ae80a7ad20ba3c22bdb447893a63c985ae97e2
+8,kappa,kappa,knowledge quantum / curvature role,manual line/arc geometry; no text overlay,02_symbol_dictionary/08_kappa.png,242d9ed38bf8cfa8e4d1c368494cebf369e9baf4d2a99dffc23c1640c172fcc5
+9,*,*,convolution/composition,manual line/arc geometry; no text overlay,02_symbol_dictionary/09__.png,67f0a6fa163b5d6f9cc336db75e0e6787b63ab25b1d133a2466c8b844bc4edd1
+10,nabla,nabla,gradient flow,manual line/arc geometry; no text overlay,02_symbol_dictionary/10_nabla.png,5405ea6dcf41aea72547b3a64c9ab4a6f6e29a6517b416741c4cd2d90a7e958b
+11,delta,Delta,Laplacian/curvature,manual line/arc geometry; no text overlay,02_symbol_dictionary/11_delta.png,de2ea14068f94bb5f9a8007df0950767f3a8ecdf8e5724106c87bcc4d98b8f02
+12,F,F,spectral or feature projection,manual line/arc geometry; no text overlay,02_symbol_dictionary/12_f.png,7a430367284fd78cb0a8bc283475aca6e4f957efa8416a9273b8980a8ea12d93
+13,{,{,set boundary,manual line/arc geometry; no text overlay,02_symbol_dictionary/13__.png,b9f80b092c2ec98e026b82cf068bf8eb19c3dd798bf693df5eb284a374be0893
+14,},},set boundary,manual line/arc geometry; no text overlay,02_symbol_dictionary/14__.png,79aadaf863f48ed26667a1c4f667de22a34b28c94424d53955028b42254cbac0
+15,V,V,visual feature bank,manual line/arc geometry; no text overlay,02_symbol_dictionary/15_v.png,4ae37fc1ffaa11e708bc284ff5ac446184ecb2fdebfe8e5d31738d5a1e307156
+16,1,1,feature-bank index,manual line/arc geometry; no text overlay,02_symbol_dictionary/16_1.png,891434847a5a72b4a6e34279fddf7dfa9824c0e732c594b92504260f65d3a52d
+17,theta,theta,orientation parameter,manual line/arc geometry; no text overlay,02_symbol_dictionary/17_theta.png,c016f17268570811b8d7b427774c7e192f058b678c1fad7671416fc0ae8888d5
+18,E,E,energy or relation set,manual line/arc geometry; no text overlay,02_symbol_dictionary/18_e.png,f54e503129f3e6390ad686401b22b362409ab0338d5d26f25d608235e0a66836
+19,(,(,group boundary,manual line/arc geometry; no text overlay,02_symbol_dictionary/19__.png,b239d6a0c8dc0e049f0bdb0bfcda925ec80d9cacfab69c48ad57b9f6ad339fc8
+20,x,x,spatial coordinate,manual line/arc geometry; no text overlay,02_symbol_dictionary/20_x.png,f03776002024d1a1ab3a7af42b09f9efe2e7a67527a27ba7ca7fec6f04d8d6ff
+21,y,y,spatial coordinate,manual line/arc geometry; no text overlay,02_symbol_dictionary/21_y.png,f1181e2f9117c4010bdd5dad5c34ae6535265fdc4c65f7d15d2d78d279cab369
+22,),),group boundary,manual line/arc geometry; no text overlay,02_symbol_dictionary/22__.png,3f6e48088d096f135c4ed35c3086955e74a4a1a325cf21438d5a9c3b56571e31
+23,omega,Omega/omega,winding or global-order role,manual line/arc geometry; no text overlay,02_symbol_dictionary/23_omega.png,91a187aaf2cbe1e4154a2e83020eb61d6942c8f152789bf97bad0d38e0276c97
+24,phi,phi,phase field,manual line/arc geometry; no text overlay,02_symbol_dictionary/24_phi.png,5cb29de6300c380f4c0d2b8074a317c95398953b60bb888d9b0f52c73443b839
+25,d,d,differential element,manual line/arc geometry; no text overlay,02_symbol_dictionary/25_d.png,f2db877ab16d6080b3f267182ade1b122e6b00bdf1389a2fcd770da26b1c9b32
+26,l,l,path coordinate,manual line/arc geometry; no text overlay,02_symbol_dictionary/26_l.png,c170e4b9ff6ef42bff5a9bb70153197b99d6f75695a0ce389f1603c6f6cec562
+27,K,K,knowledge-quanta set,manual line/arc geometry; no text overlay,02_symbol_dictionary/27_k.png,15768772374930ad5eadf78b9ff0692cb82f45b4bf88e5cb7dfff95c22a406f6
+28,R,r,relation identity,manual line/arc geometry; no text overlay,02_symbol_dictionary/28_r.png,dd73e95ab375869180d775837c909aa08e3883d38a7bc39b8a43b714b9e392e4
+29,J,j,relation index,manual line/arc geometry; no text overlay,02_symbol_dictionary/29_j.png,eec69759ef08e3976e14a0db3d9cfc4431d3e7c86b5458d27f5613520994eee3
+30,sigma_sum,Sigma,integrated state,manual line/arc geometry; no text overlay,02_symbol_dictionary/30_sigma_sum.png,d0f52d876d3741ade21352259cde87aba73578500c8bb8e52da9bd713e8f882f
+31,partial,partial,local change,manual line/arc geometry; no text overlay,02_symbol_dictionary/31_partial.png,249d1f55d443e6974e02a4520c7387e69896179d040d12467603cec7d900fda4
+32,oplus,oplus,coupling/integration,manual line/arc geometry; no text overlay,02_symbol_dictionary/32_oplus.png,6f74f6284a7e29a851405483472469fea7cf81b9cfa38163910320d28892413d
+33,Q,Q,quantized state,manual line/arc geometry; no text overlay,02_symbol_dictionary/33_q.png,66cddfe511a95f87d5785d72500766ea779a369b6850d3cbf39d90031a33485a

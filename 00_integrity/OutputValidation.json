@@ -1,18 +1,33 @@
 {
-  "hashMatch": true,
-  "conceptImagesExist": true,
-  "lawImagesExist": true,
-  "conceptCountMatch": true,
-  "lawCountMatch": true,
-  "extractCountMatch": true,
-  "extractFilesExist": true,
-  "extractsFinite": true,
-  "trainingMATExists": true,
-  "trainingH5Exists": true,
-  "humanNotationEmbedded": true,
-  "renderedText": true,
-  "conceptTensorShape": true,
-  "lawTensorShape": true,
-  "sourceTensorShape": true,
-  "allChecksPass": true
+  "all_finite": true,
+  "stage_count": 14,
+  "frames_per_stage": 8,
+  "png_count": 161,
+  "mat_count": 15,
+  "csv_count": 4,
+  "h5_count": 1,
+  "structural_tensor_size": [
+    128,
+    128,
+    3,
+    14
+  ],
+  "mask_tensor_size": [
+    128,
+    128,
+    14
+  ],
+  "temporal_tensor_size": [
+    128,
+    128,
+    3,
+    8,
+    14
+  ],
+  "nonempty_masks": true,
+  "nonempty_projection": true,
+  "structure_preservation_min": 0.92316914147035567,
+  "structure_preservation_mean": 0.93844895050759258,
+  "expected_stage_pngs_present": true,
+  "pass": true
 }
