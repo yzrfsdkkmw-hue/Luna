@@ -1,0 +1,34 @@
+{
+  "version": "YEHOSHUA_PLATO_PHASE_RECURRENCE_RECONSTRUCTION_v4",
+  "timestamp": "20260722_123444_091",
+  "source_file": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "source_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "source_dataset": "/n_5_composite_field_1000x1000/data",
+  "source_shape": [
+    1000,
+    1000,
+    5
+  ],
+  "best_lag_samples": 1000,
+  "best_acf_score": 0.96331675891562818,
+  "best_phase_score": 0.99999999999998568,
+  "best_combined_score": 0.976522725705997,
+  "timekernel_primary_period_samples": 1000,
+  "timekernel_mapped_frequency_hz": 1.317,
+  "timekernel_phase_concentration": 0.10441275620042995,
+  "candidate_count": 9,
+  "mean_face_occupancy": 0.32384490966796875,
+  "mean_symmetry_score": 0.93050015019225762,
+  "mean_uncertainty": 0.0557184964,
+  "quality": {
+    "hash_match": true,
+    "source_shape_valid": true,
+    "output_finite": true,
+    "recurrence_score_finite": true,
+    "recurrence_supported": true,
+    "full_face_occupancy": true,
+    "candidate_count_valid": true,
+    "pass": true
+  },
+  "appearance_selection": "USER_CONTROLLED"
+}

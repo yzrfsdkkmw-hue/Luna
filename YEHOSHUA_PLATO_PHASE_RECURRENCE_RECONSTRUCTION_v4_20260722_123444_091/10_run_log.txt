@@ -1,0 +1,10 @@
+[2026-07-22 12:34:44.117] Run started: 20260722_123444_091
+[2026-07-22 12:34:44.120] Source: /Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+[2026-07-22 12:34:45.128] SHA-256 matched.
+[2026-07-22 12:34:45.737] Source decoded as 1000 x 1000 x 5.
+[2026-07-22 12:34:47.245] Tensor family loaded. Primary period: 1000 samples.
+[2026-07-22 12:34:48.382] Recurrence scan completed: lag=1000, acf=0.963317, phase=1.000000.
+[2026-07-22 12:35:05.024] Best recurrence lag: 1000 samples.
+[2026-07-22 12:35:05.026] Best recurrence score: 0.97652273.
+[2026-07-22 12:35:05.027] Quality pass: 1.
+[2026-07-22 12:35:05.027] Run completed: /Users/yehoshua/MATLAB-Drive/modelTRAINING/YEHOSHUA_PLATO_PHASE_RECURRENCE_RECONSTRUCTION_v4_20260722_123444_091
