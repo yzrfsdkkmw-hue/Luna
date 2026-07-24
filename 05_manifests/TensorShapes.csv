@@ -1,0 +1,9 @@
+name,matlab_shape,h5_dataset
+anchor_images_uint8,[224 224 3 10],/images/anchors
+companion_images_uint8,[224 224 3 2 10],/images/companions
+notation_masks_single,[224 224 2 10],/masks/notation
+relation_masks_single,[224 224 2 10],/masks/relation
+carrier_fields_single,[224 224 2 10],/fields/carriers
+canonical_visual_sources_single,[64 64 12],/canonical/visual_sources
+concept_companion_codebook_single,[10 20],/codebooks/concept_companion
+triplet_adjacency_single,[30 30],/relations/triplet_adjacency

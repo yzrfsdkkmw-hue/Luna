@@ -1,0 +1,25 @@
+id,token,geometry_type,render_method,semantic_role,caption_only
+1,E,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+2,perpendicular,operator_polyline,manual line and arc geometry,structural notation token,0
+3,B,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+4,equals,operator_polyline,manual line and arc geometry,structural notation token,0
+5,p,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+6,F,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+7,q,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+8,times,operator_polyline,manual line and arc geometry,structural notation token,0
+9,nu,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+10,e,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+11,mu,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+12,theta,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+13,arrow,operator_polyline,manual line and arc geometry,structural notation token,0
+14,plus,operator_polyline,manual line and arc geometry,structural notation token,0
+15,V,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+16,r,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+17,minus,operator_polyline,manual line and arc geometry,structural notation token,0
+18,N,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+19,W,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+20,phi,arc_and_stroke_glyph,manual line and arc geometry,structural notation token,0
+21,m,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+22,v,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+23,A,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0
+24,delta,human_like_polyline_glyph,manual line and arc geometry,structural notation token,0

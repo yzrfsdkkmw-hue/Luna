@@ -1,0 +1,77 @@
+{
+  "version": "YEHOSHUA_orch_particle_foundations_extension_v1",
+  "subject": "foundational particle visual learning",
+  "output_root": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_Orch_tensor_training_bundle_v1_particle_foundations_extension_v1",
+  "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "canonical_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "anchor_count": 10,
+  "generated_companion_count": 20,
+  "layer_file_count": 60,
+  "h5_tensor_extract_count": 27,
+  "canonical_visual_source_channel_count": 12,
+  "rendered_text": true,
+  "structural_notation_required": true,
+  "anchor_images_shape": [
+    224,
+    224,
+    3,
+    10
+  ],
+  "companion_images_shape": [
+    224,
+    224,
+    3,
+    2,
+    10
+  ],
+  "notation_masks_shape": [
+    224,
+    224,
+    2,
+    10
+  ],
+  "relation_masks_shape": [
+    224,
+    224,
+    2,
+    10
+  ],
+  "carrier_fields_shape": [
+    224,
+    224,
+    2,
+    10
+  ],
+  "canonical_visual_sources_shape": [
+    64,
+    64,
+    12
+  ],
+  "concept_companion_codebook_shape": [
+    10,
+    20
+  ],
+  "triplet_adjacency_shape": [
+    30,
+    30
+  ],
+  "training_mat": "04_training_tensors/OrchParticleFoundationsLearningTensors.mat",
+  "training_h5": "04_training_tensors/OrchParticleFoundationsLearningTensors.h5",
+  "contact_sheet": "06_contact_sheets/ParticleFoundations_10Triplets.png",
+  "source_bundle_file_count": 50,
+  "existing_files_changed": 0,
+  "h5_semantic_policy": "Canonical H5 values are auxiliary numeric visual-source tensors only; they are not particle measurements, evidence, or observations.",
+  "wolfram_calibration": {
+    "role": "symbolic consistency only; not scientific source validation",
+    "semantic_query_result": "No Results Found; not accepted as source validation",
+    "proton_uud_charge_sum_in_units_of_e": 1,
+    "neutron_udd_charge_sum_in_units_of_e": 0,
+    "photon_E_minus_pc_residual": 0,
+    "nuclide_mass_number_residual": 0,
+    "magnetic_radius_force_balance_residual": 0,
+    "free_neutron_beta_charge_residual": 0,
+    "weak_vertex_charge_residual": 0,
+    "higgs_yukawa_mass_residual": 0
+  },
+  "elapsed_seconds": 57.435788
+}
