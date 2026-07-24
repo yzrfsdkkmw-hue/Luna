@@ -1,0 +1,12 @@
+YEHOSHUA STRING THEORY FOUNDATIONS AND LAW ATLAS V4
+canonical_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+concept_count=17
+basic_law_count=12
+h5_tensor_extract_count=27
+human_notation_embedded=true
+rendered_text=true
+canonical_visual_source_channels=12
+existing_files_changed=0
+elapsed_seconds=151.717058
+theory_status=String theory is a theoretical framework; this atlas does not present the canonical H5 as experimental confirmation.
+h5_semantics_policy=Canonical H5 channels remain auxiliary visual sources and are not labelled as string-theory measurements.

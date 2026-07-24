@@ -1,0 +1,13 @@
+channel,source_name
+1,composite_01
+2,composite_02
+3,composite_03
+4,chamber_01
+5,fuchsian_01
+6,ginibre_01
+7,modular_eta_01
+8,weyl_01
+9,laplacian_mode_01
+10,defect_charge_density
+11,geodesic_speed
+12,geodesic_curl

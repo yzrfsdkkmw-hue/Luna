@@ -1,0 +1,5 @@
+check,expression,wolfram_result,pass
+tension_regge_relation,"(1/(2*pi*alphaPrime))*(2*pi*alphaPrime)",1,1
+open_mode_normalization,"Integral[sin(n*sigma)^2,{sigma,0,pi}], integer n>0",pi/2,1
+closed_integer_mode_periodicity,"exp(i*n*(sigma+2*pi))-exp(i*n*sigma), integer n",0,1
+t_duality_mass_term,"massTerm(R,n,w)-massTerm(alphaPrime/R,w,n)",0,1
