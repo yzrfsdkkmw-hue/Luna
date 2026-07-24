@@ -1,0 +1,14 @@
+YEHOSHUA STRING THEORY COMPLEMENTARY PAIRS V3
+subject=image_learning
+domain=string_theory_complementary_visual_pairs
+bundle_name=string_theory_symbol_structure_v2
+canonical_sha256=5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+pair_count=30
+complementary_image_count=30
+paired_image_file_count=60
+primitive_count=12
+topic_to_source_rank=12
+pair_adjacency_is_dag=true
+rendered_text=false
+existing_files_changed=0
+elapsed_seconds=13.799545

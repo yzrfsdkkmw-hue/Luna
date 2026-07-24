@@ -1,0 +1,305 @@
+{
+  "version": "YEHOSHUA_string_theory_complementary_pairs_v3",
+  "subject": "image_learning",
+  "domain": "string_theory_complementary_visual_pairs",
+  "bundle_name": "string_theory_symbol_structure_v2",
+  "canonical_h5": "/Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5",
+  "canonical_sha256": "5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013",
+  "existing_files_changed": 0,
+  "pair_count": 30,
+  "complementary_image_count": 30,
+  "paired_image_file_count": 60,
+  "rendered_text": false,
+  "primitive_names": [
+    "geometry",
+    "boundary",
+    "dynamics",
+    "symmetry",
+    "spectrum",
+    "quantization",
+    "topology",
+    "duality",
+    "constraint",
+    "interaction",
+    "flow",
+    "interpretation"
+  ],
+  "primitive_count": 12,
+  "topic_to_source_rank": 12,
+  "pair_adjacency_is_dag": true,
+  "all_finite": true,
+  "tensor_h5": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/paired_image_learning_v3/tensors/StringTheoryComplementaryPairsTensors.h5",
+  "tensor_mat": "/Users/yehoshua/Desktop/YEHOSHUA_projection_temporal_formula_from_SSOT_v15/YEHOSHUA_string_theory_symbol_structure_tensor_training_bundle_v2/paired_image_learning_v3/tensors/StringTheoryComplementaryPairsTensors.mat",
+  "pairs": [
+    {
+      "pair_id": 1,
+      "original_representation": "Worldsheet",
+      "complementary_representation": "SpacetimeEmbedding",
+      "source_relative_path": "images/concepts/Worldsheet.png",
+      "pair_folder": "pairs/Worldsheet",
+      "knowledge_gap_relation": "Worldsheet requires SpacetimeEmbedding",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 2,
+      "original_representation": "EmbeddingMap",
+      "complementary_representation": "TargetSpaceCoordinates",
+      "source_relative_path": "images/concepts/EmbeddingMap.png",
+      "pair_folder": "pairs/EmbeddingMap",
+      "knowledge_gap_relation": "EmbeddingMap requires TargetSpaceCoordinates",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 3,
+      "original_representation": "ReggeSlope",
+      "complementary_representation": "MassSpinTrajectory",
+      "source_relative_path": "images/concepts/ReggeSlope.png",
+      "pair_folder": "pairs/ReggeSlope",
+      "knowledge_gap_relation": "ReggeSlope requires MassSpinTrajectory",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 4,
+      "original_representation": "StringTension",
+      "complementary_representation": "EnergyLengthScale",
+      "source_relative_path": "images/concepts/StringTension.png",
+      "pair_folder": "pairs/StringTension",
+      "knowledge_gap_relation": "StringTension requires EnergyLengthScale",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 5,
+      "original_representation": "InducedMetric",
+      "complementary_representation": "WorldsheetGeometry",
+      "source_relative_path": "images/concepts/InducedMetric.png",
+      "pair_folder": "pairs/InducedMetric",
+      "knowledge_gap_relation": "InducedMetric requires WorldsheetGeometry",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 6,
+      "original_representation": "NambuGotoAction",
+      "complementary_representation": "MinimalSurfaceDynamics",
+      "source_relative_path": "images/concepts/NambuGotoAction.png",
+      "pair_folder": "pairs/NambuGotoAction",
+      "knowledge_gap_relation": "NambuGotoAction requires MinimalSurfaceDynamics",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 7,
+      "original_representation": "PolyakovAction",
+      "complementary_representation": "AuxiliaryWorldsheetMetric",
+      "source_relative_path": "images/concepts/PolyakovAction.png",
+      "pair_folder": "pairs/PolyakovAction",
+      "knowledge_gap_relation": "PolyakovAction requires AuxiliaryWorldsheetMetric",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 8,
+      "original_representation": "WeylSymmetry",
+      "complementary_representation": "ConformalGauge",
+      "source_relative_path": "images/concepts/WeylSymmetry.png",
+      "pair_folder": "pairs/WeylSymmetry",
+      "knowledge_gap_relation": "WeylSymmetry requires ConformalGauge",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 9,
+      "original_representation": "WorldsheetStressEnergy",
+      "complementary_representation": "VirasoroConstraints",
+      "source_relative_path": "images/concepts/WorldsheetStressEnergy.png",
+      "pair_folder": "pairs/WorldsheetStressEnergy",
+      "knowledge_gap_relation": "WorldsheetStressEnergy requires VirasoroConstraints",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 10,
+      "original_representation": "VirasoroAlgebra",
+      "complementary_representation": "ConformalGenerators",
+      "source_relative_path": "images/concepts/VirasoroAlgebra.png",
+      "pair_folder": "pairs/VirasoroAlgebra",
+      "knowledge_gap_relation": "VirasoroAlgebra requires ConformalGenerators",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 11,
+      "original_representation": "OscillatorModes",
+      "complementary_representation": "ExcitationLevels",
+      "source_relative_path": "images/concepts/OscillatorModes.png",
+      "pair_folder": "pairs/OscillatorModes",
+      "knowledge_gap_relation": "OscillatorModes requires ExcitationLevels",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 12,
+      "original_representation": "LevelMatching",
+      "complementary_representation": "LeftRightModeBalance",
+      "source_relative_path": "images/concepts/LevelMatching.png",
+      "pair_folder": "pairs/LevelMatching",
+      "knowledge_gap_relation": "LevelMatching requires LeftRightModeBalance",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 13,
+      "original_representation": "CriticalDimension",
+      "complementary_representation": "AnomalyCancellation",
+      "source_relative_path": "images/concepts/CriticalDimension.png",
+      "pair_folder": "pairs/CriticalDimension",
+      "knowledge_gap_relation": "CriticalDimension requires AnomalyCancellation",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 14,
+      "original_representation": "WorldsheetSupersymmetry",
+      "complementary_representation": "BosonFermionPairing",
+      "source_relative_path": "images/concepts/WorldsheetSupersymmetry.png",
+      "pair_folder": "pairs/WorldsheetSupersymmetry",
+      "knowledge_gap_relation": "WorldsheetSupersymmetry requires BosonFermionPairing",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 15,
+      "original_representation": "NeveuSchwarzRamondSectors",
+      "complementary_representation": "FermionBoundaryConditions",
+      "source_relative_path": "images/concepts/NeveuSchwarzRamondSectors.png",
+      "pair_folder": "pairs/NeveuSchwarzRamondSectors",
+      "knowledge_gap_relation": "NeveuSchwarzRamondSectors requires FermionBoundaryConditions",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 16,
+      "original_representation": "GSOProjection",
+      "complementary_representation": "SpectrumConsistency",
+      "source_relative_path": "images/concepts/GSOProjection.png",
+      "pair_folder": "pairs/GSOProjection",
+      "knowledge_gap_relation": "GSOProjection requires SpectrumConsistency",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 17,
+      "original_representation": "BRSTCohomology",
+      "complementary_representation": "PhysicalStateSelection",
+      "source_relative_path": "images/concepts/BRSTCohomology.png",
+      "pair_folder": "pairs/BRSTCohomology",
+      "knowledge_gap_relation": "BRSTCohomology requires PhysicalStateSelection",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 18,
+      "original_representation": "CalabiYauCompactification",
+      "complementary_representation": "ExtraDimensionGeometry",
+      "source_relative_path": "images/concepts/CalabiYauCompactification.png",
+      "pair_folder": "pairs/CalabiYauCompactification",
+      "knowledge_gap_relation": "CalabiYauCompactification requires ExtraDimensionGeometry",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 19,
+      "original_representation": "TDuality",
+      "complementary_representation": "MomentumWindingExchange",
+      "source_relative_path": "images/concepts/TDuality.png",
+      "pair_folder": "pairs/TDuality",
+      "knowledge_gap_relation": "TDuality requires MomentumWindingExchange",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 20,
+      "original_representation": "DBranes",
+      "complementary_representation": "OpenStringEndpoints",
+      "source_relative_path": "images/concepts/DBranes.png",
+      "pair_folder": "pairs/DBranes",
+      "knowledge_gap_relation": "DBranes requires OpenStringEndpoints",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 21,
+      "original_representation": "ChamberField",
+      "complementary_representation": "RegionalBoundaryStructure",
+      "source_relative_path": "images/canonical_sources/ChamberField.png",
+      "pair_folder": "pairs/ChamberField",
+      "knowledge_gap_relation": "ChamberField requires RegionalBoundaryStructure",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 22,
+      "original_representation": "ConnectionGraph",
+      "complementary_representation": "AdjacencyStructure",
+      "source_relative_path": "images/canonical_sources/ConnectionGraph.png",
+      "pair_folder": "pairs/ConnectionGraph",
+      "knowledge_gap_relation": "ConnectionGraph requires AdjacencyStructure",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 23,
+      "original_representation": "DefectTopology",
+      "complementary_representation": "TopologicalCharge",
+      "source_relative_path": "images/canonical_sources/DefectTopology.png",
+      "pair_folder": "pairs/DefectTopology",
+      "knowledge_gap_relation": "DefectTopology requires TopologicalCharge",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 24,
+      "original_representation": "FuchsianTiling",
+      "complementary_representation": "HyperbolicSymmetry",
+      "source_relative_path": "images/canonical_sources/FuchsianTiling.png",
+      "pair_folder": "pairs/FuchsianTiling",
+      "knowledge_gap_relation": "FuchsianTiling requires HyperbolicSymmetry",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 25,
+      "original_representation": "GeodesicTrajectories",
+      "complementary_representation": "CurvedSpacePaths",
+      "source_relative_path": "images/canonical_sources/GeodesicTrajectories.png",
+      "pair_folder": "pairs/GeodesicTrajectories",
+      "knowledge_gap_relation": "GeodesicTrajectories requires CurvedSpacePaths",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 26,
+      "original_representation": "GinibreField",
+      "complementary_representation": "SpectralRepulsion",
+      "source_relative_path": "images/canonical_sources/GinibreField.png",
+      "pair_folder": "pairs/GinibreField",
+      "knowledge_gap_relation": "GinibreField requires SpectralRepulsion",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 27,
+      "original_representation": "SpectralPalette",
+      "complementary_representation": "ModeEnergyEncoding",
+      "source_relative_path": "images/canonical_sources/SpectralPalette.png",
+      "pair_folder": "pairs/SpectralPalette",
+      "knowledge_gap_relation": "SpectralPalette requires ModeEnergyEncoding",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 28,
+      "original_representation": "StreamlineField",
+      "complementary_representation": "DirectionalFlow",
+      "source_relative_path": "images/canonical_sources/StreamlineField.png",
+      "pair_folder": "pairs/StreamlineField",
+      "knowledge_gap_relation": "StreamlineField requires DirectionalFlow",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 29,
+      "original_representation": "ConceptRelations",
+      "complementary_representation": "KnowledgeNeighborhood",
+      "source_relative_path": "images/symbol_system/ConceptRelations.png",
+      "pair_folder": "pairs/ConceptRelations",
+      "knowledge_gap_relation": "ConceptRelations requires KnowledgeNeighborhood",
+      "rendered_text": false
+    },
+    {
+      "pair_id": 30,
+      "original_representation": "HumanNotationCalibration",
+      "complementary_representation": "SymbolMeaningBinding",
+      "source_relative_path": "images/symbol_system/HumanNotationCalibration.png",
+      "pair_folder": "pairs/HumanNotationCalibration",
+      "knowledge_gap_relation": "HumanNotationCalibration requires SymbolMeaningBinding",
+      "rendered_text": false
+    }
+  ]
+}
