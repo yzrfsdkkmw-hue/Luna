@@ -1,0 +1,9 @@
+TITLE: 04. Gradient descent as walking downhill
+FORMULA: new point = old point - eta * gradient f
+PLAIN MEANING: Gradient points uphill; negative gradient walks toward the valley.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

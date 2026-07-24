@@ -1,0 +1,9 @@
+TITLE: 07. Projection as shadow
+FORMULA: proj_u(v) = (v dot u)/(u dot u) * u
+PLAIN MEANING: Projection is the shadow of one vector on another direction.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

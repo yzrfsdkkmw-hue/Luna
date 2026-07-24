@@ -1,0 +1,11 @@
+{
+  "title": "03. Definite integral as area",
+  "formula": "Integral_a^b f(x) dx = signed area under curve",
+  "human_panel": "FOUNDATION_ATLAS_V1/01_Calculus1/03_integral_area/03_integral_area_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/01_Calculus1/03_integral_area/03_integral_area_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.178681426332288,
+  "salience_p95": 0.738415948275799,
+  "plain_meaning": "Integral is accumulated area. The yellow region is what is being counted."
+}

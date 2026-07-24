@@ -1,0 +1,11 @@
+{
+  "title": "13. Electric field of one charge",
+  "formula": "E = k q r_hat / r^2",
+  "human_panel": "FOUNDATION_ATLAS_V1/04_Physics_EM/01_coulomb_field/01_coulomb_field_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/04_Physics_EM/01_coulomb_field/01_coulomb_field_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.123842065831203,
+  "salience_p95": 0.487720858531797,
+  "plain_meaning": "A positive charge pushes field direction outward; strength decreases with distance."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "16. Lorentz force",
+  "formula": "F = q (v x B)",
+  "human_panel": "FOUNDATION_ATLAS_V1/04_Physics_EM/04_lorentz_force/04_lorentz_force_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/04_Physics_EM/04_lorentz_force/04_lorentz_force_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.343468593574891,
+  "salience_p95": 0.876599931337456,
+  "plain_meaning": "A moving charge in a magnetic field feels a force perpendicular to velocity and field."
+}

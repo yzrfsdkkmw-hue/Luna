@@ -1,0 +1,9 @@
+TITLE: 12. Harmonic motion
+FORMULA: x(t)=A sin(omega t + phi)
+PLAIN MEANING: Harmonic motion repeats with amplitude, frequency, and phase.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

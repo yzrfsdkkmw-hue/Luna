@@ -1,0 +1,9 @@
+TITLE: 06. Rotation matrix
+FORMULA: R(theta) = [cos theta -sin theta; sin theta cos theta]
+PLAIN MEANING: Rotation changes direction but preserves length and area.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

@@ -1,0 +1,9 @@
+TITLE: 09. Projectile motion
+FORMULA: y(t)=y0+v0y*t - (1/2)g*t^2
+PLAIN MEANING: Projectile motion combines horizontal motion with downward acceleration.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

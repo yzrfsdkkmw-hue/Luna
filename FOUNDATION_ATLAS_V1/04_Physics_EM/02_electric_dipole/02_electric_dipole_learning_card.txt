@@ -1,0 +1,9 @@
+TITLE: 14. Electric dipole
+FORMULA: field of +q and -q superposed
+PLAIN MEANING: A dipole is two opposite charges. Field lines connect positive to negative.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

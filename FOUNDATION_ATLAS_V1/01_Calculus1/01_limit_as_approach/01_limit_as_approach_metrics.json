@@ -1,0 +1,11 @@
+{
+  "title": "01. Limit as approach",
+  "formula": "lim_{x->0} sin(x)/x = 1",
+  "human_panel": "FOUNDATION_ATLAS_V1/01_Calculus1/01_limit_as_approach/01_limit_as_approach_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/01_Calculus1/01_limit_as_approach/01_limit_as_approach_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.13286904959049,
+  "salience_p95": 0.892950762852535,
+  "plain_meaning": "A limit is what the function approaches near a point, not what is memorized."
+}

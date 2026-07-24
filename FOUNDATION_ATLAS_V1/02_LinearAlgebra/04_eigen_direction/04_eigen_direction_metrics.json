@@ -1,0 +1,11 @@
+{
+  "title": "08. Eigenvector as direction that stays itself",
+  "formula": "A v = lambda v",
+  "human_panel": "FOUNDATION_ATLAS_V1/02_LinearAlgebra/04_eigen_direction/04_eigen_direction_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/02_LinearAlgebra/04_eigen_direction/04_eigen_direction_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.410536977635191,
+  "salience_p95": 0.796898800518798,
+  "plain_meaning": "An eigenvector may stretch or shrink, but it does not turn into a new direction."
+}

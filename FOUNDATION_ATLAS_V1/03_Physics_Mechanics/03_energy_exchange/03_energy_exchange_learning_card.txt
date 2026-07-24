@@ -1,0 +1,9 @@
+TITLE: 11. Energy exchange
+FORMULA: E = K + U
+PLAIN MEANING: Energy changes form: potential can become kinetic, while total energy stays fixed in the ideal model.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

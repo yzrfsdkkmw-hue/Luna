@@ -1,0 +1,9 @@
+TITLE: 05. Vector addition
+FORMULA: u + v = diagonal of the parallelogram
+PLAIN MEANING: Adding vectors means doing one movement then the other.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

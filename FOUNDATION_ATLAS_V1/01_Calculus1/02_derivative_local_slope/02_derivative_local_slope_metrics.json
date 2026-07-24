@@ -1,0 +1,11 @@
+{
+  "title": "02. Derivative as local slope",
+  "formula": "f'(a) = instantaneous slope at x=a",
+  "human_panel": "FOUNDATION_ATLAS_V1/01_Calculus1/02_derivative_local_slope/02_derivative_local_slope_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/01_Calculus1/02_derivative_local_slope/02_derivative_local_slope_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.159343683336897,
+  "salience_p95": 0.924269236430991,
+  "plain_meaning": "Derivative means local slope: how fast the curve changes at one point."
+}

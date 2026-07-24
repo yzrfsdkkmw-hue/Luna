@@ -1,0 +1,11 @@
+{
+  "title": "12. Harmonic motion",
+  "formula": "x(t)=A sin(omega t + phi)",
+  "human_panel": "FOUNDATION_ATLAS_V1/03_Physics_Mechanics/04_harmonic_motion/04_harmonic_motion_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/03_Physics_Mechanics/04_harmonic_motion/04_harmonic_motion_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.46962280092827,
+  "salience_p95": 0.993633900129642,
+  "plain_meaning": "Harmonic motion repeats with amplitude, frequency, and phase."
+}

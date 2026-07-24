@@ -1,0 +1,11 @@
+{
+  "title": "14. Electric dipole",
+  "formula": "field of +q and -q superposed",
+  "human_panel": "FOUNDATION_ATLAS_V1/04_Physics_EM/02_electric_dipole/02_electric_dipole_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/04_Physics_EM/02_electric_dipole/02_electric_dipole_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.170676674905618,
+  "salience_p95": 0.679195371772221,
+  "plain_meaning": "A dipole is two opposite charges. Field lines connect positive to negative."
+}

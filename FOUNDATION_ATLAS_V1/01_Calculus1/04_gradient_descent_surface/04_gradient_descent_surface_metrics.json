@@ -1,0 +1,11 @@
+{
+  "title": "04. Gradient descent as walking downhill",
+  "formula": "new point = old point - eta * gradient f",
+  "human_panel": "FOUNDATION_ATLAS_V1/01_Calculus1/04_gradient_descent_surface/04_gradient_descent_surface_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/01_Calculus1/04_gradient_descent_surface/04_gradient_descent_surface_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.663888888888883,
+  "salience_p95": 0.970020008003201,
+  "plain_meaning": "Gradient points uphill; negative gradient walks toward the valley."
+}

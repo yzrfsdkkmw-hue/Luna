@@ -1,0 +1,9 @@
+TITLE: 15. Magnetic field around a wire
+FORMULA: B = mu0 I / (2 pi r)
+PLAIN MEANING: A current through the page creates circular magnetic field lines.
+HOW TO USE:
+1. Look at the colored anchors first.
+2. Say what each color/object is doing in simple words.
+3. Copy the formula by hand.
+4. Redraw the picture without MATLAB.
+5. Only then solve a small exercise.

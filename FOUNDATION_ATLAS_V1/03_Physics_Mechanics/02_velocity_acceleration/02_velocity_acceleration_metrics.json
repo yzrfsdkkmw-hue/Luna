@@ -1,0 +1,11 @@
+{
+  "title": "10. Position, velocity, acceleration",
+  "formula": "v = dx/dt,  a = dv/dt",
+  "human_panel": "FOUNDATION_ATLAS_V1/03_Physics_Mechanics/02_velocity_acceleration/02_velocity_acceleration_human_panel.png",
+  "machine_salience_bw": "FOUNDATION_ATLAS_V1/03_Physics_Mechanics/02_velocity_acceleration/02_velocity_acceleration_machine_salience_bw.png",
+  "salience_min": 0,
+  "salience_max": 1,
+  "salience_mean": 0.650134170298886,
+  "salience_p95": 0.997079943895681,
+  "plain_meaning": "Velocity is change of position; acceleration is change of velocity."
+}
