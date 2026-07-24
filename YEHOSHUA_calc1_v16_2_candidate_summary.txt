@@ -1,0 +1,41 @@
+YEHOSHUA CALC1 PROJECTION TEMPORAL FROM SSOT V16.2 CANDIDATE
+Generated: 11-Jul-2026 01:33:38
+
+STATUS: CANDIDATE_FOR_REVIEW — NOT AN ACTIVE ANCHOR
+
+SOURCE RULE
+Read only from verified unified SSOT H5.
+No old MAT. No old PNG. No metadata. No fallback outside SSOT.
+
+SSOT path: /Users/yehoshua/MATLAB-Drive/modelTRAINING/jsonhotel_unified_001_002_SAFE_20260628_181406.h5
+SSOT SHA256: 5ea6094280c492b0f8051b340a842b2d664da81d40cb19ab97c914b7d3306013
+Dataset path used: /n_5_composite_field_1000x1000/data
+Prepare note: interpreted 5,000,000 values as 1000x1000x5 channel field
+Layout note: layout_B reshape(v,5,1000,1000)->HxWxC | selected by locality score 4.038406
+Frames: 16
+
+Formula: f002_derivative_linearity = d/dx[a f(x)+b g(x)] = a f'(x)+b g'(x)
+Readable layout: two rows; moderate glyph scale; strongly reduced relation weight
+
+Projection rule:
+Formula structure gradient is projected onto a temporal vector carrier.
+The projection coefficient follows the same structure as proj_u(v) = ((v.u)/(u.u))u.
+
+Anchors:
+  01: row=379 col=129 window=256 score=1.000000
+  02: row=644 col=132 window=256 score=1.000000
+  03: row=210 col=173 window=256 score=1.000000
+  04: row=511 col=236 window=256 score=1.000000
+
+Methods:
+  m01_projection_visible | mode=wave_arc | strength=0.780 | preserve=0.560 | formulaMotionPx=17.00 | fieldMotionPx=8.00
+  m02_projection_balanced | mode=geodesic_arc | strength=0.540 | preserve=0.660 | formulaMotionPx=13.00 | fieldMotionPx=6.50
+  m03_projection_structural | mode=curvature_flow | strength=0.340 | preserve=0.760 | formulaMotionPx=9.00 | fieldMotionPx=4.50
+
+Manifest rows: 12
+
+Meaning:
+Derivative-linearity structure is coupled into the 5-channel numeric field through projection onto temporal carriers.
+Motion energy marks where the formula participates in temporal field change.
+This is a derived visualization experiment, not evidence that the formula existed in the SSOT.
+The SSOT source is never modified. All outputs are derived artifacts.
