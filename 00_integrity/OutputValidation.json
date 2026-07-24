@@ -1,0 +1,18 @@
+{
+  "hashMatch": true,
+  "conceptImagesExist": true,
+  "lawImagesExist": true,
+  "conceptCountMatch": true,
+  "lawCountMatch": true,
+  "extractCountMatch": true,
+  "extractFilesExist": true,
+  "extractsFinite": true,
+  "trainingMATExists": true,
+  "trainingH5Exists": true,
+  "humanNotationEmbedded": true,
+  "renderedText": true,
+  "conceptTensorShape": true,
+  "lawTensorShape": true,
+  "sourceTensorShape": true,
+  "allChecksPass": true
+}
