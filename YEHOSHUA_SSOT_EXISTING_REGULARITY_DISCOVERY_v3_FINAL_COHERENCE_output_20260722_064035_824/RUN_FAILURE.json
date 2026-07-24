@@ -1,0 +1,18 @@
+{
+  "status": "INVALID_OUTPUT",
+  "identifier": "MATLAB:heterogeneousStrucAssignment",
+  "message": "Subscripted assignment between dissimilar structures.",
+  "stack": [
+    {
+      "file": "/MATLAB Drive/modelTRAINING/build_Yehoshua_System_Gradient_integration_v4_temporal_living.m",
+      "name": "compareInternalReferenceDatasets",
+      "line": 2155
+    },
+    {
+      "file": "/MATLAB Drive/modelTRAINING/build_Yehoshua_System_Gradient_integration_v4_temporal_living.m",
+      "name": "build_Yehoshua_System_Gradient_integration_v4_temporal_living",
+      "line": 115
+    }
+  ],
+  "timestamp": "20260722_064035_824"
+}
